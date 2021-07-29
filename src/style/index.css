@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1,h2,h3,h4,h6{
+  margin:5px;
+}
+button{
+  font-size: 26px;
+  width:200px;
+  margin:10px;
+  padding:8px;
+  border-radius: 8px;
+  border: none;
+  background-color: lightblue;
+  color:navy;
+  cursor: pointer;
+}
+button:active{
+  transform: scale(0.93);
+}
+button:hover{
+  color: lightblue;
+  background-color: navy;
+}
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+.App-header {
+  background-color: #064273;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.App-map {
+  height: 100%;
+  width: 100%;
+}
+.wave{
+  margin-top:-2.5rem;
+  width:100%;
+  height:12rem;
+  display:block;
+  position:absolute;
+  bottom:0;
+}
+.card{
+  background-color:white;
+  border-radius: 7px;
+  padding:16px;
+  margin-bottom: 25px;
+  height: 230px;
+  color:#064273;
+  text-align: center;
+}
+.place_title{
+  text-transform: capitalize;
+}
+.status{
+  color:white;
+  padding: 5px;
+  width:auto;
+  text-align: center;
+}
+.selector{
+  text-align: left;
+  width: 400px;
+}
+button.map{
+  background-color: unset;
+  text-decoration: underline;
+  font-size: medium;
+  color: #064273!important;
+  margin: 0px;
+  padding: 5px;
+}
+button.map:hover{
+  color:#064273!important;
+  text-decoration: underline;
+}
