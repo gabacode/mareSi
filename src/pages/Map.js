@@ -1,6 +1,7 @@
 import React,{Fragment, useState, useEffect, useCallback} from 'react';
 import { LoadScript, GoogleMap, Polygon } from "@react-google-maps/api";
 import { useLocation, useHistory } from "react-router-dom";
+import loader from "../images/loader.svg"
 import axios from 'axios';
 
 export default function Map() {
@@ -53,8 +54,6 @@ export default function Map() {
   return (
     <div className="App">
       <button onClick={goBack}>Indietro</button>
-      {isLoading ? <div>Loading...</div>
-      :
       <Fragment>
       <LoadScript
         id="script-loader"
@@ -63,27 +62,28 @@ export default function Map() {
         region="it"
       >
         <div style={{height:'100%',width:'100%'}} className="App-header">
-        <GoogleMap
-          mapContainerClassName="App-map"
-          center={{ lat: center.lat, lng: center.lng }}
-          zoom={15}
-          mapTypeId="roadmap"
-          version="weekly"
-          on
-        >
-          <Polygon
-            path={path}
-            options={{
-              strokeColor: "#369BF7",
-              strokeWeight: 3,
-              fillColor: "#369BF7"
-            }}
-          />
-        </GoogleMap>
+        {isLoading ? <img className="loader" src={loader} alt="caricamento"/>:
+          <GoogleMap
+            mapContainerClassName="App-map"
+            center={{ lat: center.lat, lng: center.lng }}
+            zoom={15}
+            mapTypeId="roadmap"
+            version="weekly"
+            on
+          >
+            <Polygon
+              path={path}
+              options={{
+                strokeColor: "#369BF7",
+                strokeWeight: 3,
+                fillColor: "#369BF7"
+              }}
+            />
+          </GoogleMap>
+          }
         </div>
       </LoadScript>
       </Fragment>
-      }
     </div>
   );
 }

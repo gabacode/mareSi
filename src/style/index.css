@@ -46,6 +46,11 @@ button:hover{
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+.loader{
+  margin: 0 auto;
+  width:96px;
+}
+
 .App-map {
   height: 100%;
   width: 100%;

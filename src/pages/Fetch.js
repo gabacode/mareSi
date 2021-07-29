@@ -1,6 +1,7 @@
 import React,{useState, useEffect, useCallback} from 'react';
 import axios from 'axios';
 import format from 'date-fns/format'
+import loader from "../images/loader.svg"
 import { useLocation, useHistory } from "react-router-dom";
 
 export default function Fetch(){
@@ -36,13 +37,12 @@ export default function Fetch(){
         }, [fetchData])
         
     return(
-        isLoading ? <div>Caricamento...</div>:
         <>
         <button onClick={goBack}>Indietro</button>
         <div style={{backgroundColor:'#064273',minHeight:'100vh'}}>
             <div style={{paddingTop:'50px'}}className="container">
                 <div className="row">
-                {
+                {isLoading ? <img className="loader" src={loader} alt="caricamento"/>:
                     Object.keys(data).map((key, i) => (
                         <div className="col-md-6" key={i}>
                             <div className="card col-md-12">
