@@ -59,7 +59,7 @@ export default function Home(){
                 (response) => {
                     const address = `${response.results[0].address_components[2].long_name}, ${response.results[0].address_components[4].short_name}`;
                     setAddress(address);
-                    setComune(response.results[0].address_components[2].long_name)
+                    setComune(response.results[0].address_components[3].long_name)
                     setRef(response.results[0].address_components[4].short_name);
                 },
                 (error) => {
@@ -77,10 +77,15 @@ export default function Home(){
                 address,
                 cityRef,
             }
-            history.push({
-              pathname: '/fetch',
-              state: data
-          });
+            if(places.includes(comune)){
+                history.push({
+                    pathname: '/fetch',
+                    state: data
+                });
+            } else {
+                alert("Location non presente, o non valida. Inserire manualmente.")
+                manualMode()
+            }
         }
 
     const resetLocation = () =>{
@@ -123,7 +128,7 @@ export default function Home(){
                     :
                     <>
                     <h3 style={{color:'white'}}>Ti trovi a {address}!</h3>
-                    <small style={{color:'white'}}>({location.lat}, {location.long})</small>
+                    {/* <small style={{color:'white'}}>({location.lat}, {location.long})</small> */}
                     <button onClick={sendData}>Esatto!</button>
                     <button onClick={manualMode}>Non proprio..</button>
                     <button onClick={resetLocation}>Reset</button>
