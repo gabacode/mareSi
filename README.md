@@ -21,7 +21,7 @@ Unito ad un comodo sistema di geolocalizzazione, MareSì punta a semplificare la
 
 ---
 
-# Come
+# Come?
 
 Tramite la funzione "Geolocami", l'app richiederà i permessi per accedere ai servizi di geolocalizzazione, in caso contrario, sarà possibile inserire la propria location manualmente.
 
@@ -33,7 +33,7 @@ Gli scraper necessitano di un proxy che simuli le HTTP requests, per circumnavig
 
 ---
 
-# Dove
+# Dove?
 
 I dati disponibili su MareSì riguardano solo i Comuni siciliani presenti nel database del Portale Acque. Se vuoi dare una mano, segnalando nuove località in cui è presente un campionamento delle acque più recente, ti invito a farlo, mandando una email all'indirizzo gaba@totel.it
 
