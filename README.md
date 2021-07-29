@@ -1,5 +1,5 @@
 # 🐬 MareSì 👍
-#### 🌊 https://maresi.netlify.app
+#### 🌊 https://maresi.app
 
 ---
 
