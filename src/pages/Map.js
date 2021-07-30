@@ -67,8 +67,7 @@ export default function Map() {
             mapContainerClassName="App-map"
             center={{ lat: center.lat, lng: center.lng }}
             zoom={15}
-            mapTypeId="roadmap"
-            version="weekly"
+            mapTypeId="hybrid"
             on
           >
             <Polygon
