@@ -47,6 +47,6 @@ Ringrazio mio figlio per avermi dato l'ispirazione a scrivere questo programma, 
 
 # Licenza
 
-TBA
+Tutti i contenuti del sito sono messi a disposizione con licenza CC-BY 3.0  il cui testo integrale è disponibile al seguente indirizzo: http://creativecommons.org/licenses/by/3.0/it/legalcode.
 
 ---
