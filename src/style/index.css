@@ -97,3 +97,57 @@ button.map:hover{
   color:#064273!important;
   text-decoration: underline;
 }
+.footer{
+  background-color: #001a33;
+  color:white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  opacity:0.96;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 8px;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: space-between;
+}
+.footer a{
+  color:white;
+}
+button.consent{
+  font-size: 12px;
+  width:50px;
+  background-color: white;
+}
+button.consent:hover{
+  color:green
+}
+.reconsent{
+  position:absolute;
+  bottom:8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+button.reconsent{
+  font-size: 12px;
+  width: auto;
+  background-color: unset;
+  margin:0;
+  padding:0px;
+}
+button.reconsent:active{
+  transform: translateX(-50%);
+}
+button.reconsent:hover{
+  color:unset;
+  text-decoration: underline;
+}
+
+@media screen and (max-width:767px) {
+  button.consent{
+    display:block;
+    margin:0 auto;
+    margin-top: 8px;
+  }
+}
