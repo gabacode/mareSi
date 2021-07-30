@@ -84,6 +84,7 @@ button:hover{
 .selector{
   text-align: left;
   width: 400px;
+  max-width: 100vw;
 }
 button.map{
   background-color: unset;
