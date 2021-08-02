@@ -59,7 +59,7 @@ export default function Home(){
                 (response) => {
                     const address = `${response.results[0].address_components[2].long_name}, ${response.results[0].address_components[4].short_name}`;
                     setAddress(address);
-                    setComune(response.results[0].address_components[3].long_name)
+                    setComune(response.results[0].address_components[2].long_name)
                     setRef(response.results[0].address_components[4].short_name);
                 },
                 (error) => {
