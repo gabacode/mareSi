@@ -4,6 +4,7 @@ import time
 import json
 import requests
 import pandas as pd
+from datetime import datetime
 
 '''
 Quali comuni italiani sono presenti
@@ -18,23 +19,31 @@ res = requests.get(url).content
 df = pd.DataFrame(pd.read_csv(io.StringIO(res.decode('utf-8')), converters={'comune_codice_istat': '{:0>6}'.format}))
 comuni = df['comune_codice_istat'].to_list()
 
-places = []
+places = {"comuni":[]}
 
 for comune in comuni:
     res = requests.get(get+comune)
     if (res.text):
         print(comune+(" [OK]"), end = '')
-        places.append({'codice' : res.json()['comuni'][0]['codice'], 'comune' : res.json()['comuni'][0]['comune']})
+        places["comuni"].append({
+            'codice':res.json()['comuni'][0]['codice'],
+            'comune':res.json()['comuni'][0]['comune'],
+            'regione':res.json()['comuni'][0]['regione'],
+            'provincia':res.json()['comuni'][0]['provincia'],
+            'minx':res.json()['comuni'][0]['minx'],
+            'miny':res.json()['comuni'][0]['miny'],
+            'maxx':res.json()['comuni'][0]['maxx'],
+            'maxy':res.json()['comuni'][0]['maxy']
+            })
     else:
         print(comune+(" [NO]"), end = '')
     i=i+1
     print("["+str(i)+"/"+str(len(comuni))+"]")
     time.sleep(1)
 
-with open('places_tmp.json', 'w') as outfile:
-    json.dump(places, outfile)
+now = datetime.today().strftime('%Y%m%d')
 
-os.system('jq . places_tmp.json > places.json')
-os.remove('places_tmp.json')
+with open('places_'+str(now)+'.json', 'w') as outfile:
+    json.dump(places, outfile, separators=(',', ':'))
 
 print("Fine")
