@@ -1,6 +1,5 @@
 import React, {useState} from "react"
 import {FaChevronUp} from 'react-icons/fa'
-import up from "../images/chevron-up.svg"
 
 export default function Footer() {
     const [consent, setConsent] = useState(localStorage.getItem('choice'))
