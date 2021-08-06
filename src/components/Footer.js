@@ -1,4 +1,5 @@
 import React, {useState} from "react"
+import {FaChevronUp} from 'react-icons/fa'
 import up from "../images/chevron-up.svg"
 
 export default function Footer() {
@@ -23,7 +24,9 @@ export default function Footer() {
         </div>
         :
         <div className="reconsent">
-            <button className="reconsent" onClick={handleReconsent}><img style={{width:'32px'}}src={up} alt="up" /></button>
+            <button className="reconsent icon" onClick={handleReconsent}>
+                <FaChevronUp/>
+            </button>
         </div>
     )
 }

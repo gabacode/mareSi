@@ -2,6 +2,7 @@ import React,{useState, useEffect, useCallback} from 'react';
 import axios from 'axios';
 import format from 'date-fns/format'
 import loader from "../images/loader.svg"
+import {FaChevronLeft} from 'react-icons/fa'
 import { useLocation, useHistory } from "react-router-dom";
 
 export default function Fetch(){
@@ -38,9 +39,9 @@ export default function Fetch(){
         
     return(
         <>
-        <button onClick={goBack}>Indietro</button>
         <div style={{backgroundColor:'#064273',minHeight:'100vh'}}>
-            <div style={{paddingTop:'50px'}}className="container">
+            <div style={{paddingTop:'25px'}}className="container">
+                <button className="icon" onClick={goBack}><FaChevronLeft/></button>
                 <div className="row">
                 {isLoading ? <img className="loader" src={loader} alt="caricamento"/>:
                     Object.keys(data).map((key, i) => (
@@ -54,7 +55,7 @@ export default function Fetch(){
                                     <h4 className="status" style={{backgroundColor:'#f03600'}}>{data[key].areaBalneazioneBean.statoDesc}</h4>
                                 }
                                 <small>Cod. {data[key].areaBalneazioneBean.codice}</small><br/>
-                                <small>Ultima Analisi: {data[key].analisi[0].dataAnalisi}</small><br/>
+                                <small>Ultima Analisi: {data[key].analisi[0] ? data[key].analisi[0].dataAnalisi : "Non disponibile"}</small><br/>
                                 <small>Stagione balneare: fino al {format(new Date(data[key].areaBalneazioneBean.dataFineStagioneBalneare), 'dd/MM/yyyy')}</small><br/>
                                 <small>Qualità dell'acqua:&nbsp; 
                                     {

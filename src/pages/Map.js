@@ -37,8 +37,8 @@ export default function Map() {
           const m = data.filter( x => x.properties.CODICE === cod);
           const latlong = m[0].geometry.coordinates[0]
             setCenter({
-              lat: latlong[0][1],
-              lng: latlong[0][0]
+              lat: latlong[1][1],
+              lng: latlong[1][0]
             })
             let coordinates = latlong.map(item => (
               {
@@ -53,7 +53,9 @@ export default function Map() {
 
   return (
     <div className="App">
-      <button onClick={goBack}>Indietro</button>
+      <div style={{backgroundColor:'#001a33',textAlign:'left'}}>
+        <button onClick={goBack}>Indietro</button>
+      </div>
       <Fragment>
       <LoadScript
         id="script-loader"
