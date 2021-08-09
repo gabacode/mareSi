@@ -10,6 +10,22 @@ export default function Map() {
   const history = useHistory();
   let cod = location.state.e
 
+  function getCenter(coordinates) {
+    let x = coordinates.map(c => c.lat)
+    let y = coordinates.map(c => c.lng)
+  
+    let minX = Math.min.apply(null, x)
+    let maxX = Math.max.apply(null, x)
+  
+    let minY = Math.min.apply(null, y)
+    let maxY = Math.max.apply(null, y)
+  
+    return {
+      lat: (minX + maxX) / 2,
+      lng: (minY + maxY) / 2
+    }
+  }
+
   const [data, setData] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [center, setCenter] = useState({})
@@ -22,34 +38,26 @@ export default function Map() {
   const fetchData = useCallback(async () => {
     axios.get('./data/maps.json')
         .then((res) => {
-            setData(res.data.features)
-            setIsLoading(false)
+          setData(res.data.features.filter( x => x.properties.CODICE === cod))
         }).catch(errors => {
             console.log(errors);
         });
-    }, [])
+    }, [cod])
+
     useEffect(() => {
         fetchData()
     }, [fetchData])
 
     useEffect(() => {
-      if(!isLoading){
-          const m = data.filter( x => x.properties.CODICE === cod);
-          const latlong = m[0].geometry.coordinates[0]
-            setCenter({
-              lat: latlong[1][1],
-              lng: latlong[1][0]
-            })
-            let coordinates = latlong.map(item => (
-              {
-                lat: item[1],
-                lng: item[0]
-              }
-            ));
-            setPath(coordinates)
-          }
-  },[isLoading, cod, data]
-  )
+      if(data){
+        let coordinates = data[0].geometry.coordinates[0].map(item => (
+          {lat: item[1], lng: item[0]}
+        ));
+        setCenter(getCenter(coordinates));
+        setPath(coordinates)
+        setIsLoading(false)
+      }
+    },[data])
 
   return (
     <div className="App">
