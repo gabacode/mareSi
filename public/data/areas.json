@@ -139,6 +139,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 6,
+        "valoreEscherichiaColi": 8,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "29/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -235,6 +242,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "06/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 56,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "07/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -330,6 +344,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "12/07/2021",
+        "valoreEnterococchi": 20,
+        "valoreEscherichiaColi": 6,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 13,
@@ -530,6 +551,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 16,
+        "valoreEscherichiaColi": 4,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -625,6 +653,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 4,
+        "valoreEscherichiaColi": 8,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 2,
@@ -722,6 +757,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "25/07/2021",
+        "valoreEnterococchi": 2,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "25/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 3,
@@ -818,6 +860,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "13/07/2021",
+        "valoreEnterococchi": 3,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 17,
         "valoreEscherichiaColi": 10,
@@ -913,6 +962,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 0,
@@ -1061,6 +1117,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "21/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 0,
@@ -1156,6 +1219,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 2,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 0,
@@ -2056,6 +2126,20 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 160,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
+        "dataAnalisi": "15/06/2021",
+        "valoreEnterococchi": 52,
+        "valoreEscherichiaColi": 10,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "18/05/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 10,
@@ -2144,6 +2228,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 0,
@@ -2241,6 +2332,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -2336,6 +2434,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 3,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "28/06/2021",
         "valoreEnterococchi": 0,
@@ -2433,6 +2538,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 4,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "28/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -2528,6 +2640,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 37,
+        "valoreEscherichiaColi": 28,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "28/06/2021",
         "valoreEnterococchi": 4,
@@ -2625,6 +2744,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 5,
@@ -2720,6 +2846,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "05/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 96,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "03/06/2021",
         "valoreEnterococchi": 4,
@@ -2817,6 +2950,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "05/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 102,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "03/06/2021",
         "valoreEnterococchi": 3,
         "valoreEscherichiaColi": 4,
@@ -2912,6 +3052,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "05/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 125,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "03/06/2021",
         "valoreEnterococchi": 2,
@@ -3009,6 +3156,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 8,
+        "valoreEscherichiaColi": 11,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "29/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -3104,6 +3258,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 8,
+        "valoreEscherichiaColi": 13,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "29/06/2021",
         "valoreEnterococchi": 0,
@@ -3201,6 +3362,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 7,
+        "valoreEscherichiaColi": 16,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "29/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -3296,6 +3464,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 2,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "29/06/2021",
         "valoreEnterococchi": 0,
@@ -3393,6 +3568,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 4,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "29/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -3488,6 +3670,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "29/06/2021",
         "valoreEnterococchi": 0,
@@ -4725,6 +4914,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "08/07/2021",
+        "valoreEnterococchi": 30,
+        "valoreEscherichiaColi": 50,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 10,
@@ -5986,6 +6182,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "28/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 1,
@@ -6113,6 +6316,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 2,
+        "valoreEscherichiaColi": 10,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 3,
         "valoreEscherichiaColi": 1,
@@ -6209,6 +6419,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 43,
+        "valoreEscherichiaColi": 82,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 1,
@@ -6304,6 +6521,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 7,
+        "valoreEscherichiaColi": 6,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
@@ -6462,6 +6686,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 1,
@@ -7569,6 +7800,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 4,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "29/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -7664,6 +7902,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 3,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 0,
@@ -7761,6 +8006,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "06/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 86,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "07/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -7856,6 +8108,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "06/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 78,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "07/06/2021",
         "valoreEnterococchi": 0,
@@ -7953,6 +8212,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "06/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 88,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "07/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -8048,6 +8314,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "06/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 97,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "07/06/2021",
         "valoreEnterococchi": 3,
@@ -8145,6 +8418,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "06/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 54,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "07/06/2021",
         "valoreEnterococchi": 2,
         "valoreEscherichiaColi": 0,
@@ -8240,6 +8520,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "06/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 60,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "07/06/2021",
         "valoreEnterococchi": 0,
@@ -8337,6 +8624,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "06/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 82,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "07/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -8432,6 +8726,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "06/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 94,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "07/06/2021",
         "valoreEnterococchi": 0,
@@ -8529,6 +8830,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "12/07/2021",
+        "valoreEnterococchi": 12,
+        "valoreEscherichiaColi": 4,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 15,
         "valoreEscherichiaColi": 2,
@@ -8624,6 +8932,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "12/07/2021",
+        "valoreEnterococchi": 18,
+        "valoreEscherichiaColi": 3,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 11,
@@ -8721,6 +9036,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "12/07/2021",
+        "valoreEnterococchi": 13,
+        "valoreEscherichiaColi": 11,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 17,
         "valoreEscherichiaColi": 2,
@@ -8816,6 +9138,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "12/07/2021",
+        "valoreEnterococchi": 14,
+        "valoreEscherichiaColi": 6,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 9,
@@ -8913,6 +9242,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "12/07/2021",
+        "valoreEnterococchi": 4,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -9009,6 +9345,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "12/07/2021",
+        "valoreEnterococchi": 17,
+        "valoreEscherichiaColi": 4,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 11,
         "valoreEscherichiaColi": 0,
@@ -9104,6 +9447,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "12/07/2021",
+        "valoreEnterococchi": 7,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 11,
@@ -9262,6 +9612,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 1,
@@ -12473,6 +12830,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "12/07/2021",
+        "valoreEnterococchi": 7,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 10,
         "valoreEscherichiaColi": 0,
@@ -14315,6 +14679,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "08/07/2021",
+        "valoreEnterococchi": 10,
+        "valoreEscherichiaColi": 10,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -14410,6 +14781,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "08/07/2021",
+        "valoreEnterococchi": 40,
+        "valoreEscherichiaColi": 40,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 20,
@@ -14507,6 +14885,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "08/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 10,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -14602,6 +14987,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "08/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 10,
@@ -14699,6 +15091,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "08/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -14795,6 +15194,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "08/07/2021",
+        "valoreEnterococchi": 40,
+        "valoreEscherichiaColi": 120,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 313,
         "valoreEscherichiaColi": 10,
@@ -14890,6 +15296,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 40,
+        "valoreEscherichiaColi": 280,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 10,
@@ -14995,6 +15408,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 52,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 10,
         "valoreEscherichiaColi": 0,
@@ -15090,6 +15510,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 10,
+        "valoreEscherichiaColi": 30,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 0,
@@ -15187,6 +15614,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 10,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 10,
         "valoreEscherichiaColi": 0,
@@ -15282,6 +15716,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 0,
@@ -15379,6 +15820,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 76,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -15459,7 +15907,7 @@
     "message": null,
     "areaBalneazioneBean": {
       "nome": "CALA ROSSA",
-      "stato": 6,
+      "stato": 1,
       "classe": "3",
       "codice": 2418,
       "tipo": "AB",
@@ -15470,7 +15918,7 @@
       "siglaProvincia": "PA",
       "dataInizioStagioneBalneare": "2021-06-06",
       "dataFineStagioneBalneare": "2021-10-31",
-      "statoDesc": "Temporaneamente vietata per altri motivi",
+      "statoDesc": "Balneabile",
       "isFuoriNorma": ""
     },
     "analisi": [
@@ -15559,7 +16007,7 @@
         "evento": "Inquinamento",
         "misuraGestione": "Interdizione area",
         "dataInizio": "23/07/2021",
-        "dataFine": "",
+        "dataFine": "28/07/2021",
         "ordinanza": "50"
       }
     ]
@@ -23301,15 +23749,7 @@
         "codice": 4434
       }
     ],
-    "interdizioni": [
-      {
-        "evento": "Inquinamento di breve durata",
-        "misuraGestione": "Chiusura temporanea area",
-        "dataInizio": "19/07/2021",
-        "dataFine": "22/07/2021",
-        "ordinanza": ""
-      }
-    ]
+    "interdizioni": null
   },
   {
     "resultCode": "OK",
@@ -32366,6 +32806,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "09/07/2021",
+        "valoreEnterococchi": 20,
+        "valoreEscherichiaColi": 20,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -32461,6 +32908,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "09/07/2021",
+        "valoreEnterococchi": 20,
+        "valoreEscherichiaColi": 20,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 0,
@@ -32764,6 +33218,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 1,
@@ -32859,6 +33320,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 1,
@@ -32956,6 +33424,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 5,
@@ -33051,6 +33526,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 1,
@@ -33979,6 +34461,20 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 70,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
+        "dataAnalisi": "15/06/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "18/05/2021",
         "valoreEnterococchi": 0,
@@ -38103,6 +38599,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "13/07/2021",
+        "valoreEnterococchi": 60,
+        "valoreEscherichiaColi": 180,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 20,
         "valoreEscherichiaColi": 10,
@@ -38198,6 +38701,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "13/07/2021",
+        "valoreEnterococchi": 90,
+        "valoreEscherichiaColi": 330,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 10,
@@ -38295,6 +38805,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "13/07/2021",
+        "valoreEnterococchi": 10,
+        "valoreEscherichiaColi": 40,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 10,
         "valoreEscherichiaColi": 20,
@@ -38390,6 +38907,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "13/07/2021",
+        "valoreEnterococchi": 50,
+        "valoreEscherichiaColi": 80,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 20,
@@ -38487,6 +39011,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "13/07/2021",
+        "valoreEnterococchi": 80,
+        "valoreEscherichiaColi": 100,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 10,
         "valoreEscherichiaColi": 10,
@@ -38582,6 +39113,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 20,
@@ -38679,6 +39217,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 10,
+        "valoreEscherichiaColi": 10,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 10,
         "valoreEscherichiaColi": 0,
@@ -38774,6 +39319,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 15,
+        "valoreEscherichiaColi": 18,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 40,
@@ -42287,6 +42839,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "25/07/2021",
+        "valoreEnterococchi": 3,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "25/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -43524,6 +44083,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 3,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -43619,6 +44185,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 10,
+        "valoreEscherichiaColi": 26,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
@@ -43716,6 +44289,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 3,
+        "valoreEscherichiaColi": 55,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 3,
         "valoreEscherichiaColi": 1,
@@ -43811,6 +44391,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "23/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
@@ -43908,6 +44495,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "25/07/2021",
+        "valoreEnterococchi": 42,
+        "valoreEscherichiaColi": 10,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "25/06/2021",
         "valoreEnterococchi": 7,
         "valoreEscherichiaColi": 3,
@@ -44003,6 +44597,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "23/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 2,
@@ -44100,6 +44701,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "23/07/2021",
+        "valoreEnterococchi": 6,
+        "valoreEscherichiaColi": 60,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 2,
         "valoreEscherichiaColi": 7,
@@ -44196,6 +44804,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "24/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "24/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 0,
@@ -44291,6 +44906,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "24/07/2021",
+        "valoreEnterococchi": 82,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "24/06/2021",
         "valoreEnterococchi": 180,
@@ -44396,6 +45018,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "24/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "24/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 1,
@@ -44491,6 +45120,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "24/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "24/06/2021",
         "valoreEnterococchi": 21,
@@ -44588,6 +45224,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "24/07/2021",
+        "valoreEnterococchi": 122,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "24/06/2021",
         "valoreEnterococchi": 42,
         "valoreEscherichiaColi": 9,
@@ -44683,6 +45326,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 8,
+        "valoreEscherichiaColi": 6,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 0,
@@ -44780,6 +45430,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 12,
+        "valoreEscherichiaColi": 47,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "28/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -44875,6 +45532,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 12,
+        "valoreEscherichiaColi": 5,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 0,
@@ -44972,6 +45636,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 69,
+        "valoreEscherichiaColi": 31,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "28/06/2021",
         "valoreEnterococchi": 4,
         "valoreEscherichiaColi": 0,
@@ -45068,6 +45739,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -45163,6 +45841,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 7,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 0,
@@ -48555,6 +49240,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 6,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -48650,6 +49342,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 6,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 0,
@@ -48747,6 +49446,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 3,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -48842,6 +49548,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "05/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 114,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "03/06/2021",
         "valoreEnterococchi": 12,
@@ -50840,6 +51553,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -50935,6 +51655,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "20/06/2021",
         "valoreEnterococchi": 7,
@@ -51032,6 +51759,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "20/06/2021",
         "valoreEnterococchi": 2,
         "valoreEscherichiaColi": 27,
@@ -51127,6 +51861,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "20/06/2021",
         "valoreEnterococchi": 23,
@@ -51224,6 +51965,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 1,
@@ -51319,6 +52067,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 16,
+        "valoreEscherichiaColi": 23,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 11,
@@ -53686,6 +54441,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 1,
@@ -53781,6 +54543,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
@@ -53878,6 +54647,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 1,
@@ -53974,6 +54750,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 1,
@@ -54069,6 +54852,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
@@ -54197,6 +54987,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 2,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 5,
@@ -54292,6 +55089,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
@@ -54389,6 +55193,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 24,
+        "valoreEscherichiaColi": 5,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 1,
@@ -54484,6 +55295,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
@@ -54581,6 +55399,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -54677,6 +55502,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "23/07/2021",
+        "valoreEnterococchi": 38,
+        "valoreEscherichiaColi": 620,
+        "flagOltreLimiti": 1,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 3,
         "valoreEscherichiaColi": 6,
@@ -54765,6 +55597,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "21/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 0,
@@ -54862,6 +55701,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 3,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "20/06/2021",
         "valoreEnterococchi": 18,
         "valoreEscherichiaColi": 6,
@@ -54957,6 +55803,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 3,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "22/06/2021",
         "valoreEnterococchi": 20,
@@ -55054,6 +55907,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 20,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "22/06/2021",
         "valoreEnterococchi": 2,
         "valoreEscherichiaColi": 2,
@@ -55149,6 +56009,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 3,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "22/06/2021",
         "valoreEnterococchi": 6,
@@ -55246,6 +56113,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 24,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -55341,6 +56215,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 3,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "22/06/2021",
         "valoreEnterococchi": 1,
@@ -55438,6 +56319,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 2,
+        "valoreEscherichiaColi": 4,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "22/06/2021",
         "valoreEnterococchi": 4,
         "valoreEscherichiaColi": 3,
@@ -55534,6 +56422,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "21/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 0,
@@ -55629,6 +56524,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "21/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 2,
@@ -56898,6 +57800,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "21/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -56993,6 +57902,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 8,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 0,
@@ -57090,6 +58006,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "23/07/2021",
+        "valoreEnterococchi": 46,
+        "valoreEscherichiaColi": 390,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 2,
         "valoreEscherichiaColi": 11,
@@ -57185,6 +58108,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "20/06/2021",
         "valoreEnterococchi": 0,
@@ -57282,6 +58212,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -57377,6 +58314,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 7,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
@@ -57474,6 +58418,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -57569,6 +58520,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
@@ -57666,6 +58624,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -57761,6 +58726,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 22,
+        "valoreEscherichiaColi": 5,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
@@ -57858,6 +58830,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 25,
+        "valoreEscherichiaColi": 6,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 2,
@@ -57953,6 +58932,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
@@ -58050,6 +59036,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -58145,6 +59138,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 2,
+        "valoreEscherichiaColi": 4,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
@@ -58242,6 +59242,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 3,
@@ -58337,6 +59344,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 0,
@@ -58465,6 +59479,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 4,
@@ -58560,6 +59581,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 1,
@@ -58688,6 +59716,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 5,
@@ -58783,6 +59818,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
@@ -58880,6 +59922,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 6,
@@ -58976,6 +60025,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 1,
@@ -59071,6 +60127,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
@@ -59199,6 +60262,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 18,
@@ -59294,6 +60364,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "28/07/2021",
+        "valoreEnterococchi": 7,
+        "valoreEscherichiaColi": 16,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 1,
@@ -60587,6 +61664,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 5,
@@ -60682,6 +61766,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 3,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
@@ -60779,6 +61870,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 19,
+        "valoreEscherichiaColi": 43,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 16,
@@ -60874,6 +61972,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 5,
+        "valoreEscherichiaColi": 11,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 1,
@@ -60971,6 +62076,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 11,
+        "valoreEscherichiaColi": 20,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 7,
@@ -61066,6 +62178,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
@@ -61540,6 +62659,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "28/07/2021",
+        "valoreEnterococchi": 13,
+        "valoreEscherichiaColi": 50,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 1,
@@ -61667,6 +62793,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "28/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 1,
@@ -61763,6 +62896,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "28/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 1,
@@ -61858,6 +62998,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "28/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 3,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 1,
@@ -62691,6 +63838,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 3,
@@ -62786,6 +63940,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 3,
+        "valoreEscherichiaColi": 10,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 0,
@@ -62883,6 +64044,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 34,
         "valoreEscherichiaColi": 2,
@@ -62978,6 +64146,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 0,
@@ -63075,6 +64250,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -63170,6 +64352,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 1,
@@ -63267,6 +64456,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 0,
@@ -63362,6 +64558,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "24/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 11,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "24/06/2021",
         "valoreEnterococchi": 1,
@@ -63459,6 +64662,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "25/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "25/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 2,
@@ -63554,6 +64764,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "25/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "25/06/2021",
         "valoreEnterococchi": 1,
@@ -63651,6 +64868,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "28/07/2021",
+        "valoreEnterococchi": 18,
+        "valoreEscherichiaColi": 72,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 4,
         "valoreEscherichiaColi": 4,
@@ -63746,6 +64970,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "28/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 4,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 1,
@@ -63843,6 +65074,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 7,
+        "valoreEscherichiaColi": 11,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 2,
         "valoreEscherichiaColi": 25,
@@ -63938,6 +65176,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 5,
+        "valoreEscherichiaColi": 12,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 10,
@@ -64035,6 +65280,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 10,
+        "valoreEscherichiaColi": 9,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 11,
         "valoreEscherichiaColi": 0,
@@ -64130,6 +65382,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 18,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 10,
@@ -64227,6 +65486,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 3,
+        "valoreEscherichiaColi": 10,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 12,
         "valoreEscherichiaColi": 0,
@@ -64322,6 +65588,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 12,
+        "valoreEscherichiaColi": 111,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 120,
@@ -64419,6 +65692,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "21/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 2,
         "valoreEscherichiaColi": 4,
@@ -64514,6 +65794,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "23/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
@@ -64611,6 +65898,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 20,
+        "valoreEscherichiaColi": 2300,
+        "flagOltreLimiti": 1,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "20/06/2021",
         "valoreEnterococchi": 2,
         "valoreEscherichiaColi": 3,
@@ -64706,6 +66000,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "21/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 1,
@@ -64853,6 +66154,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 44,
+        "valoreEscherichiaColi": 33,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -64948,6 +66256,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 230,
+        "valoreEscherichiaColi": 21,
+        "flagOltreLimiti": 1,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 0,
@@ -65045,6 +66360,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 2,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -65140,6 +66462,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 4,
+        "valoreEscherichiaColi": 24,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 1,
@@ -65237,6 +66566,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 280,
+        "valoreEscherichiaColi": 700,
+        "flagOltreLimiti": 1,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 2,
@@ -65332,6 +66668,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 21,
@@ -65429,6 +66772,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 100,
+        "valoreEscherichiaColi": 590,
+        "flagOltreLimiti": 1,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 8,
         "valoreEscherichiaColi": 150,
@@ -65524,6 +66874,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 3,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 2,
@@ -65621,6 +66978,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -65717,6 +67081,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -65812,6 +67183,20 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 10,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "26/06/2021",
         "valoreEnterococchi": 14,
@@ -66473,6 +67858,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 58,
+        "valoreEscherichiaColi": 115,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 17,
         "valoreEscherichiaColi": 53,
@@ -66568,6 +67960,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 16,
+        "valoreEscherichiaColi": 20,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 2,
@@ -66665,6 +68064,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 61,
+        "valoreEscherichiaColi": 91,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 10,
         "valoreEscherichiaColi": 35,
@@ -66760,6 +68166,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 13,
+        "valoreEscherichiaColi": 26,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 3,
@@ -66857,6 +68270,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 7,
@@ -66953,6 +68373,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 8,
+        "valoreEscherichiaColi": 20,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 4,
@@ -67048,6 +68475,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 3,
+        "valoreEscherichiaColi": 6,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
@@ -67248,6 +68682,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 5,
+        "valoreEscherichiaColi": 4,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 4,
         "valoreEscherichiaColi": 13,
@@ -67343,6 +68784,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 3,
+        "valoreEscherichiaColi": 4,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
@@ -67955,6 +69403,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 18,
+        "valoreEscherichiaColi": 10,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 4,
         "valoreEscherichiaColi": 0,
@@ -68050,6 +69505,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 8,
+        "valoreEscherichiaColi": 10,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 9,
@@ -68147,6 +69609,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 20,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 124,
         "valoreEscherichiaColi": 10,
@@ -68242,6 +69711,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "07/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 8,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "08/06/2021",
         "valoreEnterococchi": 132,
@@ -68339,6 +69815,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 29,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -68434,6 +69917,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 30,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 0,
@@ -68531,6 +70021,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "15/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -68626,6 +70123,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "05/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 100,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "03/06/2021",
         "valoreEnterococchi": 3,
@@ -68723,6 +70227,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "05/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 88,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "03/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -68818,6 +70329,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "05/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 85,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "03/06/2021",
         "valoreEnterococchi": 0,
@@ -68915,6 +70433,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "05/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 92,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "03/06/2021",
         "valoreEnterococchi": 8,
         "valoreEscherichiaColi": 0,
@@ -69010,6 +70535,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "13/07/2021",
+        "valoreEnterococchi": 4,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 4,
@@ -69107,6 +70639,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "13/07/2021",
+        "valoreEnterococchi": 6,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 47,
         "valoreEscherichiaColi": 0,
@@ -69202,6 +70741,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "13/07/2021",
+        "valoreEnterococchi": 7,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 9,
@@ -69299,6 +70845,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "13/07/2021",
+        "valoreEnterococchi": 3,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 8,
         "valoreEscherichiaColi": 2,
@@ -69394,6 +70947,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "13/07/2021",
+        "valoreEnterococchi": 4,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 3,
@@ -69491,6 +71051,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "13/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "14/06/2021",
         "valoreEnterococchi": 7,
         "valoreEscherichiaColi": 0,
@@ -69586,6 +71153,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 3,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 0,
@@ -69683,6 +71257,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -69778,6 +71359,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 0,
@@ -70286,6 +71874,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "22/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 2,
@@ -71524,6 +73119,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 4,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -71619,6 +73221,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 6,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
@@ -71716,6 +73325,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "17/07/2021",
+        "valoreEnterococchi": 5,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "17/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 1,
@@ -71811,6 +73427,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "20/06/2021",
         "valoreEnterococchi": 2,
@@ -71908,6 +73531,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "20/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -72003,6 +73633,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "23/07/2021",
+        "valoreEnterococchi": 3,
+        "valoreEscherichiaColi": 3,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
@@ -72100,6 +73737,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "23/07/2021",
+        "valoreEnterococchi": 2,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 2,
@@ -72195,6 +73839,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "23/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 0,
@@ -72292,6 +73943,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "21/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 1,
@@ -72387,6 +74045,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "21/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 0,
@@ -72484,6 +74149,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "23/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 3,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -72579,6 +74251,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "20/06/2021",
         "valoreEnterococchi": 0,
@@ -72676,6 +74355,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "21/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 1,
@@ -72771,6 +74457,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "20/06/2021",
         "valoreEnterococchi": 0,
@@ -72868,6 +74561,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "20/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 1,
@@ -72963,6 +74663,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "23/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 5,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 0,
@@ -73060,6 +74767,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "21/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 2,
@@ -73155,6 +74869,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "23/07/2021",
+        "valoreEnterococchi": 2,
+        "valoreEscherichiaColi": 3,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 0,
@@ -73252,6 +74973,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "23/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 1,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 3,
         "valoreEscherichiaColi": 5,
@@ -73347,6 +75075,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 0,
@@ -73444,6 +75179,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -73539,6 +75281,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 0,
@@ -73636,6 +75385,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 7,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -73731,6 +75487,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 3,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 0,
@@ -73828,6 +75591,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -73923,6 +75693,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 5,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 0,
@@ -74020,6 +75797,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "21/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -74115,6 +75899,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 11,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 0,
@@ -74212,6 +76003,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -74307,6 +76105,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "26/07/2021",
+        "valoreEnterococchi": 2,
+        "valoreEscherichiaColi": 3,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "23/06/2021",
         "valoreEnterococchi": 0,
@@ -74404,6 +76209,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 7,
+        "valoreEscherichiaColi": 10,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "28/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -74499,6 +76311,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 13,
+        "valoreEscherichiaColi": 35,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "28/06/2021",
         "valoreEnterococchi": 0,
@@ -74596,6 +76415,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "27/07/2021",
+        "valoreEnterococchi": 3,
+        "valoreEscherichiaColi": 9,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "28/06/2021",
         "valoreEnterococchi": 6,
         "valoreEscherichiaColi": 0,
@@ -74691,6 +76517,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 23,
+        "valoreEscherichiaColi": 12,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 0,
@@ -74788,6 +76621,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -74883,6 +76723,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 12,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 0,
@@ -74980,6 +76827,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 28,
+        "valoreEscherichiaColi": 10,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 1,
         "valoreEscherichiaColi": 0,
@@ -75075,6 +76929,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 8,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 0,
@@ -75172,6 +77033,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -75267,6 +77135,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 0,
@@ -75364,6 +77239,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 2,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "20/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 1,
@@ -75459,6 +77341,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 35,
+        "valoreEscherichiaColi": 30,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 0,
@@ -75556,6 +77445,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -75651,6 +77547,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "20/07/2021",
+        "valoreEnterococchi": 0,
+        "valoreEscherichiaColi": 7,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "20/06/2021",
         "valoreEnterococchi": 0,
@@ -75748,6 +77651,13 @@
     },
     "analisi": [
       {
+        "dataAnalisi": "18/07/2021",
+        "valoreEnterococchi": 250,
+        "valoreEscherichiaColi": 28,
+        "flagOltreLimiti": 1,
+        "tipoAnalisi": "R"
+      },
+      {
         "dataAnalisi": "18/06/2021",
         "valoreEnterococchi": 0,
         "valoreEscherichiaColi": 0,
@@ -75843,6 +77753,13 @@
       "isFuoriNorma": ""
     },
     "analisi": [
+      {
+        "dataAnalisi": "19/07/2021",
+        "valoreEnterococchi": 1,
+        "valoreEscherichiaColi": 0,
+        "flagOltreLimiti": 0,
+        "tipoAnalisi": "R"
+      },
       {
         "dataAnalisi": "19/06/2021",
         "valoreEnterococchi": 98,

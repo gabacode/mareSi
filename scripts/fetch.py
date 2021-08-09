@@ -65,7 +65,6 @@ if (choice == "y"):
         json_arr.append(res.json())
         with open('areas_tmp.json', 'w') as outfile:
             json.dump(json_arr, outfile)
-        time.sleep(1)
     os.system('jq . areas_tmp.json > areas.json')
     os.remove('areas_tmp.json')
 else:
