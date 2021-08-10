@@ -134,7 +134,7 @@ button.consent:hover{
   color:green
 }
 .reconsent{
-  position:absolute;
+  position:fixed;
   bottom:0px;
   left: 50%;
   transform: translateX(-50%);
@@ -145,6 +145,7 @@ button.reconsent:active{
 }
 button.reconsent:hover{
   color:unset;
+  color:#ddd;
   text-decoration: underline;
 }
 
@@ -157,8 +158,8 @@ button.reconsent:hover{
 }
 
 nav{
-  /* background: linear-gradient(to bottom, #2d91c2 0%,#1e528e 100%); */
-  background: #064273;
+  background: linear-gradient(to bottom, #2d91c2 0%,#1e528e 100%);
+  /* background: #064273; */
   height: 42px;
   display: flex;
   justify-content: space-between;
@@ -175,29 +176,9 @@ nav{
   height: 100%;
   cursor: pointer;
 }
-.bars{
-  display: none;
-  color: #fff;
-}
+
 .logo{
   font-size: 1.618rem;
-}
-
-@media screen and (max-width: 768px) {
-  .bars{
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 25%);
-    font-size: 1.8rem;
-    cursor: pointer;
-    z-index: 2;
-    color:white;
-  }
-  .navMenu, .navRight{
-    display: none!important;
-  }
 }
 .navMenu {
   display: flex;
@@ -215,30 +196,40 @@ nav{
   width: 100vw;
 }
 
-.navBtnLink{
-  border-radius: 4px;
-  background: #256ce1;
-  padding: 10px 22px;
-  color: #fff;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  text-decoration: none;
-}
-
 .openMenu{
   background: linear-gradient(to bottom, #2d91c2 0%,#1e528e 100%);
-  min-height: 100vh;
+  height: 100%;
   position: absolute;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
   z-index: 1;
+  top:0;
 }
 .openMenu a{
   color:white;
+}
+.hamburger-react{
+  z-index:9999;
+  color:#fff
+}
+
+.markdown{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: aliceblue;
+  color:#03243f;
+}
+.markdown a, markdown a:visited{
+  color:#064273;
+  font-weight: bold;
+}
+.markdown ul, .markdown hr{
+  display:none;
+}
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h6{
+  margin: revert
 }

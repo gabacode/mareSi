@@ -17,7 +17,7 @@ export default function Footer() {
         !consent ?
         <div className="footer">
             <div style={{alignSelf:'center',fontSize:'0.86em',textAlign:'center',margin:'0 auto'}}>
-                Questo sito utilizza servizi di geolocalizzazione anonimizzati e non colleziona dati sul server. Fonte: <a href="https://www.portaleacque.salute.gov.it/PortaleAcquePubblico/home.do" target="_blank" rel="noreferrer">Ministero della Salute</a>, licenza <a href="http://creativecommons.org/licenses/by/3.0/it/legalcode" target="_blank" rel="noreferrer">CC-BY 3.0</a>.
+                Questo sito utilizza servizi di geolocalizzazione anonimizzati e non colleziona dati sul server. Fonte dati: <a href="https://www.portaleacque.salute.gov.it/PortaleAcquePubblico/home.do" target="_blank" rel="noreferrer">Ministero della Salute</a>, licenza <a href="http://creativecommons.org/licenses/by/3.0/it/legalcode" target="_blank" rel="noreferrer">CC-BY 3.0</a>.
                 <button className="consent" onClick={handleConsent}>OK</button>
             </div>
         </div>
