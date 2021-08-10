@@ -7,7 +7,6 @@ import axios from 'axios';
 
 export default function Map() {
 
-  let subtitle;
   const [modalIsOpen, setIsOpen] = useState(false);
 
   function openModal() {
