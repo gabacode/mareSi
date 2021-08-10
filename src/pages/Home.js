@@ -8,7 +8,6 @@ import places from '../lib/places.json'
 Geocode.setApiKey(process.env.REACT_APP_API_KEY_GOOGLE_MAPS);
 Geocode.setRegion("it");
 Geocode.setLocationType("ROOFTOP");
-// Geocode.enableDebug();
 
 let options = places.map(item => (
     {

@@ -2,13 +2,55 @@ import React,{Fragment, useState, useEffect, useCallback} from 'react';
 import { LoadScript, GoogleMap, Polygon } from "@react-google-maps/api";
 import { useLocation, useHistory } from "react-router-dom";
 import loader from "../images/loader.svg"
+import Modal from 'react-modal';
 import axios from 'axios';
 
 export default function Map() {
 
+  let subtitle;
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
+  const customStyles = {
+    content: {
+      top: '50%',
+      left: '50%',
+      right: 'auto',
+      bottom: 'auto',
+      marginRight: '-50%',
+      transform: 'translate(-50%, -50%)',
+    },
+  };
+
   const location = useLocation();
   const history = useHistory();
-  let cod = location.state.e
+
+  let info = {
+    nome: location.state.nome,
+    codice: location.state.codice,
+    statoDesc: location.state.statoDesc,
+    dataAnalisi: location.state.dataAnalisi,
+    valoreEnterococchi: location.state.valoreEnterococchi,
+    valoreEscherichiaColi: location.state.valoreEscherichiaColi,
+    flagOltreLimiti: location.state.flagOltreLimiti,
+  }
+  
+  let color
+
+  if (info.statoDesc === "Balneabile"){
+    color = "rgb(54,155,247)"
+  } else if (info.flagOltreLimiti){
+    color = "rgb(240, 54, 0)"
+  } else {
+    color = "rgb(235, 149, 50)"
+  }
 
   function getCenter(coordinates) {
     let x = coordinates.map(c => c.lat)
@@ -38,11 +80,11 @@ export default function Map() {
   const fetchData = useCallback(async () => {
     axios.get('./data/maps.json')
         .then((res) => {
-          setData(res.data.features.filter( x => x.properties.CODICE === cod))
+          setData(res.data.features.filter( x => x.properties.CODICE === info.codice))
         }).catch(errors => {
             console.log(errors);
         });
-    }, [cod])
+    }, [info.codice])
 
     useEffect(() => {
         fetchData()
@@ -65,6 +107,21 @@ export default function Map() {
         <button onClick={goBack}>Indietro</button>
       </div>
       <Fragment>
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        style={customStyles}
+      >
+        <div style={{textAlign:'center'}}>
+        <b style={{textDecoration:'underline'}}>{info.nome}</b><br />
+        Stato: {info.statoDesc === "Balneabile" ? "Balneabile" : "Non Balneabile"}<br />
+        Ultima Analisi: {info.dataAnalisi ? info.dataAnalisi : "Non disponibile"}<br />
+        Enterococchi: {info.valoreEnterococchi}<br />
+        Escheria Coli: {info.valoreEscherichiaColi}<br />
+        Oltre i limiti: {info.flagOltreLimiti === 1 ? "Si" : "No"}<br />
+        <button onClick={closeModal}>OK</button>
+        </div>
+      </Modal>
       <LoadScript
         id="script-loader"
         googleMapsApiKey={process.env.REACT_APP_API_KEY_GOOGLE_MAPS}
@@ -81,11 +138,12 @@ export default function Map() {
             on
           >
             <Polygon
+              onClick={openModal}
               path={path}
               options={{
-                strokeColor: "#369BF7",
+                strokeColor: color,
                 strokeWeight: 3,
-                fillColor: "#369BF7"
+                fillColor: color
               }}
             />
           </GoogleMap>

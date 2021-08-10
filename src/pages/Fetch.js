@@ -15,9 +15,15 @@ export default function Fetch(){
     const goBack = () => {
         history.goBack();
     }
-    const gotoMap = (e) => {
+    const gotoMap = (nome, codice, statoDesc, dataAnalisi, valoreEnterococchi, valoreEscherichiaColi, flagOltreLimiti) => {
         const data = {
-            e,
+            nome: nome,
+            codice: codice,
+            statoDesc: statoDesc,
+            dataAnalisi: dataAnalisi,
+            valoreEnterococchi: valoreEnterococchi,
+            valoreEscherichiaColi: valoreEscherichiaColi,
+            flagOltreLimiti: flagOltreLimiti,
         }
         history.push({
           pathname: '/map',
@@ -78,8 +84,19 @@ export default function Fetch(){
                                         <span>DATI NON DISPONIBILI 😪</span>
                                     }
                                 </small><br/>
-                                <button className="map" onClick={(event) => gotoMap(data[key].areaBalneazioneBean.codice)}><small>Vai alla mappa</small></button>
-                                {/* <small>Scarica l'Ordinanza: <a href={`https://www.portaleacque.salute.gov.it${data[key].dettaglioProfiliBean[0].downloadUrl}`} target="_blank" rel="noreferrer">PDF</a></small> */}
+                                <button className="map" onClick={() => gotoMap(
+                                    data[key].areaBalneazioneBean.nome,
+                                    data[key].areaBalneazioneBean.codice,
+                                    data[key].areaBalneazioneBean.statoDesc,
+                                    data[key].analisi[0] ? data[key].analisi[0].dataAnalisi : "Non disponibile",
+                                    data[key].analisi[0] ? data[key].analisi[0].valoreEnterococchi : "Non disponibile",
+                                    data[key].analisi[0] ? data[key].analisi[0].valoreEscherichiaColi : "Non disponibile",
+                                    data[key].analisi[0] ? data[key].analisi[0].flagOltreLimiti : "Non disponibile",
+                                )}>
+                                    <small>
+                                        Vai alla mappa
+                                    </small>
+                                </button>
                             </div>
                         </div>
                     ))
