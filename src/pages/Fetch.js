@@ -62,7 +62,13 @@ export default function Fetch(){
                                 }
                                 <small>Cod. {data[key].areaBalneazioneBean.codice}</small><br/>
                                 <small>Ultima Analisi: {data[key].analisi[0] ? data[key].analisi[0].dataAnalisi : "Non disponibile"}</small><br/>
-                                <small>Stagione balneare: fino al {format(new Date(data[key].areaBalneazioneBean.dataFineStagioneBalneare), 'dd/MM/yyyy')}</small><br/>
+                                {
+                                    data[key].areaBalneazioneBean.dataFineStagioneBalneare ?
+                                    <>
+                                    <small>Stagione balneare: fino al {format(new Date(data[key].areaBalneazioneBean.dataFineStagioneBalneare), 'dd/MM/yyyy')}</small><br/>
+                                    </>
+                                    :null
+                                }
                                 <small>Qualità dell'acqua:&nbsp; 
                                     {
                                         data[key].areaBalneazioneBean.classe === "1" ?
