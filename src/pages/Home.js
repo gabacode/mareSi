@@ -3,7 +3,7 @@ import Geocode from "react-geocode";
 import Select, { createFilter } from "react-select";
 import MenuList from "../components/MenuList";
 import { useHistory } from 'react-router-dom';
-import places from '../lib/places.json'
+import places from '../lib/places.json';
 
 Geocode.setApiKey(process.env.REACT_APP_API_KEY_GOOGLE_MAPS);
 Geocode.setRegion("it");
@@ -19,8 +19,10 @@ let options = places.map(item => (
 export default function Home(){
     const history = useHistory();
     const [location, setLocation] = useState({})
+    const [altLocation, setAltLocation] = useState(null)
     const [address, setAddress] = useState('')
     const [comune, setComune] = useState('')
+    const [regione, setRegione] = useState('')
     const [cityRef, setRef] = useState('')
     const [manuale, setManuale] = useState(false)
 
@@ -35,8 +37,16 @@ export default function Home(){
     }
 
     const handleChange = (selectedOption) => {
-        setComune(selectedOption.value)
-      };
+        (Geocode.fromAddress(selectedOption.value).then(
+            (response) => {
+                setAltLocation(response.results[0].geometry.location)
+            },
+            (error) => {
+                console.log(error)
+            }
+        ));
+        (setRegione(selectedOption.value));
+    }
 
     const getLocation = () => {
         setManuale(false)
@@ -56,8 +66,10 @@ export default function Home(){
             Object.keys(location).length > 0 ?
             Geocode.fromLatLng(location.lat, location.long).then(
                 (response) => {
+                    console.log(response.results[0])
                     const address = `${response.results[0].address_components[2].long_name}, ${response.results[0].address_components[4].short_name}`;
                     setAddress(address);
+                    setRegione(response.results[0].address_components[5].long_name)
                     setComune(response.results[0].address_components[3].long_name)
                     setRef(response.results[0].address_components[4].short_name);
                 },
@@ -65,20 +77,22 @@ export default function Home(){
                     console.error(error);
                 }
             )
-          :<div/>
+          :<></>
         },[location])
       
         const sendData = (e) =>{
             e.preventDefault();
             const data = {
                 comune,
+                regione,
                 location,
+                altLocation,
                 address,
                 cityRef,
             }
-            if(places.includes(comune)){
+            if(places.includes(regione)){
                 history.push({
-                    pathname: '/fetch',
+                    pathname: '/maps',
                     state: data
                 });
             } else {
