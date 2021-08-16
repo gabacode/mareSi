@@ -65,8 +65,12 @@ button:hover{
 }
 
 .App-map {
+  margin-top: 60px;
   height: 100%;
   width: 100%;
+}
+.gmnoprint{
+  display:none;
 }
 .wave{
   margin-top:-2.5rem;

@@ -75,7 +75,7 @@ export default function Map() {
           <GoogleMap
             mapContainerClassName="App-map"
             center={{ lat: center.lat, lng: center.lng }}
-            zoom={Object.keys(info.location).length !== 0 ? 13 : 8}
+            zoom={Object.keys(info.location).length !== 0 ? 12 : 8}
             mapTypeId="hybrid"
             on
           >
