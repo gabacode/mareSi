@@ -35,7 +35,7 @@ Gli scraper necessitano di un proxy che simuli le HTTP requests, per circumnavig
 
 # Dove?
 
-I dati disponibili su MareSì riguardano i Comuni italiani presenti nel database del Portale Acque. Se vuoi dare una mano, segnalando nuove località in cui è presente un campionamento delle acque più recente, ti invito a farlo, mandando una email all'indirizzo gaba@totel.it, o aprendo una [issue](https://github.com/gabacode/mareSi/issues) del [repository ufficiale](https://github.com/gabacode/mareSi).
+I dati disponibili su MareSì riguardano i Comuni italiani presenti nel database del Portale Acque. Se vuoi dare una mano, segnalando nuove località in cui è presente un campionamento delle acque più recente, ti invito a farlo, mandando una email all'indirizzo gaba@totel.it, o aprendo una [issue](https://github.com/gabacode/mareSi/issues) nel [repository ufficiale](https://github.com/gabacode/mareSi).
 
 ---
 
