@@ -66,7 +66,7 @@ export default function Home(){
             Object.keys(location).length > 0 ?
             Geocode.fromLatLng(location.lat, location.long).then(
                 (response) => {
-                    console.log(response.results[0])
+                    // console.log(response.results[0])
                     const address = `${response.results[0].address_components[2].long_name}, ${response.results[0].address_components[4].short_name}`;
                     setAddress(address);
                     setRegione(response.results[0].address_components[5].long_name)
