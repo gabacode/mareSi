@@ -1,6 +1,6 @@
 import React,{Fragment, useState, useEffect, useCallback} from 'react';
 import { LoadScript, GoogleMap, Polygon } from "@react-google-maps/api";
-import { useLocation, useHistory } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import format from 'date-fns/format'
 import loader from "../images/loader.svg"
 import axios from 'axios';
@@ -8,7 +8,7 @@ import axios from 'axios';
 export default function Map() {
 
     const location = useLocation();
-    const history = useHistory();
+    // const history = useHistory();
 
     const strokeWeight = 3;
 
@@ -25,9 +25,9 @@ export default function Map() {
     const [isLoading, setIsLoading] = useState(true);
     const [center, setCenter] = useState({})
 
-  const goBack = () => {
-    history.goBack();
-  }
+  // const goBack = () => {
+  //   history.goBack();
+  // }
 
   const getCoordinates = (coords) => (
       coords.map(item => (
@@ -63,9 +63,6 @@ export default function Map() {
     
     return (
     <div className="App">
-      <div style={{backgroundColor:'#001a33',textAlign:'left'}}>
-        <button onClick={goBack}>Indietro</button>
-      </div>
       <Fragment>
         <LoadScript
         id="script-loader"
