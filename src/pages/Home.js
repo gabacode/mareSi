@@ -4,6 +4,8 @@ import Select, { createFilter } from "react-select";
 import MenuList from "../components/MenuList";
 import { useHistory } from 'react-router-dom';
 import places from '../lib/places.json';
+import loader from "../images/loader.svg"
+
 
 Geocode.setApiKey(process.env.REACT_APP_API_KEY_GOOGLE_MAPS);
 Geocode.setRegion("it");
@@ -19,6 +21,7 @@ let options = places.map(item => (
 export default function Home(){
     const history = useHistory();
     const [location, setLocation] = useState({})
+    const [isLoading, setisLoading] = useState(false)
     const [altLocation, setAltLocation] = useState(null)
     const [address, setAddress] = useState('')
     const [comune, setComune] = useState('')
@@ -32,6 +35,7 @@ export default function Home(){
     }
 
     const autoMode = () => {
+        setisLoading(false)
         setManuale(false)
         resetLocation()
     }
@@ -49,6 +53,7 @@ export default function Home(){
     }
 
     const getLocation = () => {
+        setisLoading(true)
         setManuale(false)
         navigator.geolocation.getCurrentPosition(
             function(position) {
@@ -56,6 +61,7 @@ export default function Home(){
                     lat: position.coords.latitude,
                     long: position.coords.longitude
                 })
+                setisLoading(false)
             },
             function(error) {
                 setManuale(true)
@@ -121,7 +127,7 @@ export default function Home(){
                     Object.keys(location).length === 0 ?
                     manuale === false ?
                     <Fragment>
-                    <button onClick={getLocation}>Geolocami</button>
+                    <button onClick={getLocation}>{isLoading ? <img style={{height:'26px',verticalAlign:'middle'}} src={loader} alt="loading"/> : <>Geolocami</>}</button>
                     </Fragment>
                     :
                     <>
