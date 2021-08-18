@@ -20,17 +20,6 @@ export default function Map() {
       setIsOpen(false);
     }
 
-    const modalStyle = {
-      content: {
-        top: '50%',
-        left: '50%',
-        right: 'auto',
-        bottom: 'auto',
-        marginRight: '-50%',
-        transform: 'translate(-50%, -50%)',
-      },
-    };
-
     const location = useLocation();
 
     const strokeWeight = 3;
@@ -103,7 +92,19 @@ export default function Map() {
               parentSelector={() => document.querySelector('#popup')}
               isOpen={modalIsOpen}
               onRequestClose={closeModal}
-              style={modalStyle}
+              style={{
+                content: {
+                  top: '50%',
+                  left: '50%',
+                  right: 'auto',
+                  bottom: 'auto',
+                  marginRight: '-50%',
+                  transform: 'translate(-50%, -50%)',
+                },
+                overlay: {
+                  backdropFilter: 'blur(2px)'
+                }
+              }}
             >
             <div style={{textAlign:'center'}}>
               {
@@ -115,6 +116,8 @@ export default function Map() {
                 {
                   area.stato === "Balneabile" ?
                   <h4 className="status" style={{backgroundColor:'#2BEB8E'}}>{area.stato}</h4> :
+                  area.stato === "Temporaneamente vietata per altri motivi" ?
+                  <h4 className="status" style={{backgroundColor:'#eb9532'}}>{area.stato}</h4> :
                   <h4 className="status" style={{backgroundColor:'#f03600'}}>{area.stato}</h4>
                 }
                 <small>Enterococchi: {area.ecocchi}</small><br/>
@@ -143,6 +146,8 @@ export default function Map() {
                     <span>DATI NON DISPONIBILI 😪</span>
                   }
                 </small><br/>
+                {area.interdizioni ? <><small>{area.interdizioni}</small><br/></>:null}
+                {area.ordinanza ? <><small>({area.ordinanza})</small><br/></>:null}
                 </>
               }
               <button onClick={closeModal}>OK</button>
@@ -161,10 +166,12 @@ export default function Map() {
                     stato : data[key].areaBalneazioneBean.statoDesc,
                     stagione : data[key].areaBalneazioneBean.dataFineStagioneBalneare ? "Stagione balneare: fino al " + format(new Date(data[key].areaBalneazioneBean.dataFineStagioneBalneare), 'dd/MM/yyyy') : null,
                     analisi : data[key].analisi[0] ? data[key].analisi[0].dataAnalisi : "Non disponibile",
-                    ecocchi : data[key].analisi[0] ? data[key].analisi[0].valoreEnterococchi : "Non disponibile",
-                    ecoli : data[key].analisi[0] ? data[key].analisi[0].valoreEscherichiaColi : "Non disponibile",
+                    ecocchi : data[key].analisi[0] ? data[key].analisi[0].valoreEnterococchi + "/" + data[key].areaBalneazioneBean.limiteEi : "Non disponibile",
+                    ecoli : data[key].analisi[0] ? data[key].analisi[0].valoreEscherichiaColi + "/" + data[key].areaBalneazioneBean.limiteEc : "Non disponibile",
                     limiti : data[key].analisi[0] ? (data[key].analisi[0].flagOltreLimiti === 1) || (data[key].analisi[0].flagOltreLimiti === "Y") ? "SI" : "NO" : "Non disponibile",
-                    classe: data[key].areaBalneazioneBean.classe
+                    classe: data[key].areaBalneazioneBean.classe,
+                    interdizioni: data[key].interdizioni ? data[key].interdizioni[0].evento && "Interdizione per " + data[key].interdizioni[0].evento : null,
+                    ordinanza: data[key].interdizioni ? data[key].interdizioni[0].ordinanza && "Ordinanza " + data[key].interdizioni[0].ordinanza : null,
                   }
                 )}
                 path={getCoordinates(data[key].coordinates)}
