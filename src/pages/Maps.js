@@ -114,17 +114,22 @@ export default function Map() {
                 <h4>{area.comune}</h4>
                 {/* <small>Cod. {area.codice}</small><br/> */}
                 {
-                  area.stato === "Balneabile" ?
-                  <h4 className="status" style={{backgroundColor:'#2BEB8E'}}>{area.stato}</h4> :
-                  area.stato === "Temporaneamente vietata per altri motivi" ?
+                  area.limiti === "SI" ?
+                  <h4 className="status" style={{backgroundColor:'#f03600'}}>{area.stato}</h4> :
+                  area.stato !== "Balneabile" ?
                   <h4 className="status" style={{backgroundColor:'#eb9532'}}>{area.stato}</h4> :
-                  <h4 className="status" style={{backgroundColor:'#f03600'}}>{area.stato}</h4>
+                  <h4 className="status" style={{backgroundColor:'#2BEB8E'}}>{area.stato}</h4>
+                  // area.stato === "Balneabile" ?
+                  // <h4 className="status" style={{backgroundColor:'#2BEB8E'}}>{area.stato}</h4> :
+                  // area.stato === "Temporaneamente vietata per altri motivi" ?
+                  // <h4 className="status" style={{backgroundColor:'#eb9532'}}>{area.stato}</h4> :
+                  // <h4 className="status" style={{backgroundColor:'#f03600'}}>{area.stato}</h4>
                 }
-                <small>Enterococchi: {area.ecocchi}</small><br/>
-                <small>Escheria Coli: {area.ecoli}</small><br/>
-                <small>Oltre i limiti: {area.limiti}</small><br/>
-                <small>Ultima Analisi: {area.analisi}</small><br/>
-                <small>{area.stagione}</small><br/>
+                {area.ecocchi ? <><small>Enterococchi: {area.ecocchi}</small><br/></>:null}
+                {area.ecoli ? <><small>Escheria Coli: {area.ecoli}</small><br/></>:null}
+                {area.limiti ? <><small>Oltre i limiti: {area.limiti}</small><br/></>:null}
+                {area.analisi ? <><small>Ultima Analisi: {area.analisi}</small><br/></>:null}
+                {area.stagione ? <><small>{area.stagione}</small><br/></>:null}
                 <small>Qualità dell'acqua:&nbsp; 
                   {
                     area.classe === "1" ?
@@ -165,10 +170,10 @@ export default function Map() {
                     codice : data[key].areaBalneazioneBean.codice,
                     stato : data[key].areaBalneazioneBean.statoDesc,
                     stagione : data[key].areaBalneazioneBean.dataFineStagioneBalneare ? "Stagione balneare: fino al " + format(new Date(data[key].areaBalneazioneBean.dataFineStagioneBalneare), 'dd/MM/yyyy') : null,
-                    analisi : data[key].analisi[0] ? data[key].analisi[0].dataAnalisi : "Non disponibile",
-                    ecocchi : data[key].analisi[0] ? data[key].analisi[0].valoreEnterococchi + "/" + data[key].areaBalneazioneBean.limiteEi : "Non disponibile",
-                    ecoli : data[key].analisi[0] ? data[key].analisi[0].valoreEscherichiaColi + "/" + data[key].areaBalneazioneBean.limiteEc : "Non disponibile",
-                    limiti : data[key].analisi[0] ? (data[key].analisi[0].flagOltreLimiti === 1) || (data[key].analisi[0].flagOltreLimiti === "Y") ? "SI" : "NO" : "Non disponibile",
+                    analisi : data[key].analisi[0] ? data[key].analisi[0].dataAnalisi : null,
+                    ecocchi : data[key].analisi[0] ? data[key].analisi[0].valoreEnterococchi + "/" + data[key].areaBalneazioneBean.limiteEi : null,
+                    ecoli : data[key].analisi[0] ? data[key].analisi[0].valoreEscherichiaColi + "/" + data[key].areaBalneazioneBean.limiteEc : null,
+                    limiti : data[key].analisi[0] ? (data[key].analisi[0].flagOltreLimiti === 1) || (data[key].analisi[0].flagOltreLimiti === "Y") ? "SI" : "NO" : null,
                     classe: data[key].areaBalneazioneBean.classe,
                     interdizioni: data[key].interdizioni ? data[key].interdizioni[0].evento && "Interdizione per " + data[key].interdizioni[0].evento : null,
                     ordinanza: data[key].interdizioni ? data[key].interdizioni[0].ordinanza && "Ordinanza " + data[key].interdizioni[0].ordinanza : null,
@@ -176,25 +181,45 @@ export default function Map() {
                 )}
                 path={getCoordinates(data[key].coordinates)}
                 options={
-                    data[key].areaBalneazioneBean.statoDesc === "Balneabile" &&  (data[key].analisi[0] && (data[key].analisi[0].flagOltreLimiti === 0)) ?
-                    {
-                      strokeColor: 'rgb(54,155,247)',
-                      strokeWeight: strokeWeight,
-                      fillColor: 'rgb(54,155,247)'
-                    }
-                    :
-                    data[key].analisi[0] && (data[key].analisi[0].flagOltreLimiti === 1 || data[key].analisi[0].flagOltreLimiti === "Y") ?
-                    {
-                      strokeColor: 'rgb(240, 54, 0)',
-                      strokeWeight: strokeWeight,
-                      fillColor: 'rgb(240, 54, 0)'
-                    }
-                    :
-                    {
-                      strokeColor: 'rgb(235, 149, 50)',
-                      strokeWeight: strokeWeight,
-                      fillColor: 'rgb(235, 149, 50)'
-                    }
+                  data[key].analisi[0] && (data[key].analisi[0].flagOltreLimiti === 1 || data[key].analisi[0].flagOltreLimiti === "Y") ?
+                  {
+                    strokeColor: 'rgb(240, 54, 0)',
+                    strokeWeight: strokeWeight,
+                    fillColor: 'rgb(240, 54, 0)'
+                  }
+                  :
+                  data[key].areaBalneazioneBean.statoDesc !== "Balneabile" ?
+                  {
+                    strokeColor: 'rgb(235, 149, 50)',
+                    strokeWeight: strokeWeight,
+                    fillColor: 'rgb(235, 149, 50)'
+                  }
+                  :
+                  {
+                    strokeColor: 'rgb(54,155,247)',
+                    strokeWeight: strokeWeight,
+                    fillColor: 'rgb(54,155,247)'
+                  }
+
+                    // data[key].areaBalneazioneBean.statoDesc === "Balneabile" &&  (data[key].analisi[0] && (data[key].analisi[0].flagOltreLimiti === 0)) ?
+                    // {
+                    //   strokeColor: 'rgb(54,155,247)',
+                    //   strokeWeight: strokeWeight,
+                    //   fillColor: 'rgb(54,155,247)'
+                    // }
+                    // :
+                    // data[key].analisi[0] && (data[key].analisi[0].flagOltreLimiti === 1 || data[key].analisi[0].flagOltreLimiti === "Y") ?
+                    // {
+                    //   strokeColor: 'rgb(240, 54, 0)',
+                    //   strokeWeight: strokeWeight,
+                    //   fillColor: 'rgb(240, 54, 0)'
+                    // }
+                    // :
+                    // {
+                    //   strokeColor: 'rgb(235, 149, 50)',
+                    //   strokeWeight: strokeWeight,
+                    //   fillColor: 'rgb(235, 149, 50)'
+                    // }
                 }
             />
             </Fragment> 
