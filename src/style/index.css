@@ -224,7 +224,6 @@ nav{
   z-index:9999;
   color:#fff
 }
-
 .markdown{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -269,6 +268,6 @@ nav{
   margin: 2px
 }
 
-button.gm-control-active.gm-fullscreen-control{
+.gm-style-cc{
   display:none;
 }

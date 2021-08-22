@@ -95,7 +95,7 @@ export default function Map() {
           >
             <div onClick={openLeggenda} className="legend">
               {
-                leg ?
+                !leg ?
                 <img style={{height:'30px',transform:'translateY(5px)'}} src={leggenda} alt="leggenda"/>
                 :
                 <ul>
