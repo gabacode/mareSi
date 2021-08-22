@@ -25,11 +25,16 @@ Unito ad un comodo sistema di geolocalizzazione, MareSì punta a semplificare la
 
 Tramite la funzione "Geolocami", l'app richiederà i permessi per accedere ai servizi di geolocalizzazione, in caso contrario, sarà possibile inserire la propria location manualmente.
 
-Le coordinate vengono poi messe a confronto con i dati di campionamento acque fornite dal Ministero della Salute, relative alla Regione Sicilia.
+Le coordinate vengono poi messe a confronto con i dati di campionamento acque fornite dal Ministero della Salute, distribuite per regione.
 
-Il ministero non fornisce delle vere e proprie API per l'accesso ai dati, ma essi vengono resi [disponibili](https://github.com/gabacode/mareSi/tree/main/scripts/data), e in formato machine-readable, tramite gli [scripts inclusi](https://github.com/gabacode/mareSi/blob/main/scripts/). Gli script sono forniti senza garanzia alcuna, e vanno usati con parsimonia e buon senso. E' possibile derivare i JSON di altre regioni, modificando il parametro ISTAT in [fetch.py](https://github.com/gabacode/mareSi/blob/main/scripts/fetch.py)
+Cliccando sull'area desiderata, saranno disponibili dati importanti relativi all'area di interesse, come la data e l'esito dell'ultima analisi delle acque, se l'area è balneabile o meno e, se disponibile, l'ordinanza relativa all'interdizione.  
 
-Gli scraper necessitano di un proxy che simuli le HTTP requests, per circumnavigare il blocco CORS. Sono state utilizzate le librerie [lcp](https://www.npmjs.com/package/local-cors-proxy), e [jq](https://stedolan.github.io/jq/) per la formattazione JSON. L'oceano è fortunatamente ricco di ottime documentazioni a riguardo.
+I colori delle mappe seguono la seguente legenda:  
+
+🟦 Area Balneabile  
+🟧 Area non balneabile  
+🟥 Misurazioni oltre i limiti
+
 
 ---
 
