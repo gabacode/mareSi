@@ -93,8 +93,9 @@ button:hover{
   text-transform: capitalize;
 }
 .status{
+  border-radius: 6px;
   color:white;
-  padding: 5px;
+  padding: 6px;
   width:auto;
   text-align: center;
 }

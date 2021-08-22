@@ -118,15 +118,11 @@ export default function Map() {
                   <h4 className="status" style={{backgroundColor:'#f03600'}}>{area.stato}</h4> :
                   area.stato !== "Balneabile" ?
                   <h4 className="status" style={{backgroundColor:'#eb9532'}}>{area.stato}</h4> :
-                  <h4 className="status" style={{backgroundColor:'#2BEB8E'}}>{area.stato}</h4>
-                  // area.stato === "Balneabile" ?
-                  // <h4 className="status" style={{backgroundColor:'#2BEB8E'}}>{area.stato}</h4> :
-                  // area.stato === "Temporaneamente vietata per altri motivi" ?
-                  // <h4 className="status" style={{backgroundColor:'#eb9532'}}>{area.stato}</h4> :
-                  // <h4 className="status" style={{backgroundColor:'#f03600'}}>{area.stato}</h4>
+                  <h4 className="status" style={{backgroundColor:'#369bf7'}}>{area.stato}</h4>
+
                 }
                 {area.ecocchi ? <><small>Enterococchi: {area.ecocchi}</small><br/></>:null}
-                {area.ecoli ? <><small>Escheria Coli: {area.ecoli}</small><br/></>:null}
+                {area.ecoli ? <><small>Escherichia Coli: {area.ecoli}</small><br/></>:null}
                 {area.limiti ? <><small>Oltre i limiti: {area.limiti}</small><br/></>:null}
                 {area.analisi ? <><small>Ultima Analisi: {area.analisi}</small><br/></>:null}
                 {area.stagione ? <><small>{area.stagione}</small><br/></>:null}
@@ -183,43 +179,23 @@ export default function Map() {
                 options={
                   data[key].analisi[0] && (data[key].analisi[0].flagOltreLimiti === 1 || data[key].analisi[0].flagOltreLimiti === "Y") ?
                   {
-                    strokeColor: 'rgb(240, 54, 0)',
+                    strokeColor: '#f03600',
                     strokeWeight: strokeWeight,
-                    fillColor: 'rgb(240, 54, 0)'
+                    fillColor: '#f03600'
                   }
                   :
                   data[key].areaBalneazioneBean.statoDesc !== "Balneabile" ?
                   {
-                    strokeColor: 'rgb(235, 149, 50)',
+                    strokeColor: '#eb9532',
                     strokeWeight: strokeWeight,
-                    fillColor: 'rgb(235, 149, 50)'
+                    fillColor: '#eb9532'
                   }
                   :
                   {
-                    strokeColor: 'rgb(54,155,247)',
+                    strokeColor: '#369bf7',
                     strokeWeight: strokeWeight,
-                    fillColor: 'rgb(54,155,247)'
+                    fillColor: '#369bf7'
                   }
-
-                    // data[key].areaBalneazioneBean.statoDesc === "Balneabile" &&  (data[key].analisi[0] && (data[key].analisi[0].flagOltreLimiti === 0)) ?
-                    // {
-                    //   strokeColor: 'rgb(54,155,247)',
-                    //   strokeWeight: strokeWeight,
-                    //   fillColor: 'rgb(54,155,247)'
-                    // }
-                    // :
-                    // data[key].analisi[0] && (data[key].analisi[0].flagOltreLimiti === 1 || data[key].analisi[0].flagOltreLimiti === "Y") ?
-                    // {
-                    //   strokeColor: 'rgb(240, 54, 0)',
-                    //   strokeWeight: strokeWeight,
-                    //   fillColor: 'rgb(240, 54, 0)'
-                    // }
-                    // :
-                    // {
-                    //   strokeColor: 'rgb(235, 149, 50)',
-                    //   strokeWeight: strokeWeight,
-                    //   fillColor: 'rgb(235, 149, 50)'
-                    // }
                 }
             />
             </Fragment> 
