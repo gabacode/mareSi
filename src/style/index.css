@@ -241,3 +241,34 @@ nav{
 .markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h6{
   margin: revert
 }
+.legend{
+  background: none rgb(255, 255, 255);
+  border: 0px;
+  margin: 10px;
+  padding: 0px;
+  position: absolute;
+  user-select: none;
+  border-radius: 2px;
+  min-height: 40px;
+  min-width: 40px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px -1px;
+  overflow: hidden;
+  bottom: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+.legend ul{
+  list-style: none;
+  text-align: left;
+  padding: 5px;
+  margin: 5px;
+}
+.legend li{
+  color:#064273;
+  font-size: 13px;
+  margin: 2px
+}
+
+button.gm-control-active.gm-fullscreen-control{
+  display:none;
+}

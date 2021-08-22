@@ -1,9 +1,10 @@
 import React,{Fragment, useState, useEffect, useCallback} from 'react';
 import { LoadScript, GoogleMap, Polygon, Marker } from "@react-google-maps/api";
 import { useLocation } from "react-router-dom";
-import format from 'date-fns/format'
-import loader from "../images/loader.svg"
-import Modal from 'react-modal'
+import format from 'date-fns/format';
+import leggenda from '../images/info.svg';
+import loader from '../images/loader.svg';
+import Modal from 'react-modal';
 import axios from 'axios';
 
 export default function Map() {
@@ -36,6 +37,11 @@ export default function Map() {
     const [data, setData] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
     const [center, setCenter] = useState({})
+    const [leg, setLeg] = useState(false);
+
+    const openLeggenda = () => {
+      setLeg(!leg)
+    }
 
     const getCoordinates = (coords) => (
         coords.map(item => (
@@ -87,6 +93,18 @@ export default function Map() {
             mapTypeId="hybrid"
             on
           >
+            <div onClick={openLeggenda} className="legend">
+              {
+                leg ?
+                <img style={{height:'30px',transform:'translateY(5px)'}} src={leggenda} alt="leggenda"/>
+                :
+                <ul>
+                  <li>🔵 Balneabile</li>
+                  <li>🟠 Non balneabile</li>
+                  <li>​🔴 Oltre i limiti</li>
+                </ul>
+              }
+            </div>
             <Marker position={center}/>
             <Modal
               parentSelector={() => document.querySelector('#popup')}
