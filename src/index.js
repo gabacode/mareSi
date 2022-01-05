@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 import NotFound from './pages/404';
 import WIP from './pages/WIP';
 
-const update = true
+const update = false
 
 ReactDOM.render(
   <React.StrictMode>
