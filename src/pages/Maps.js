@@ -167,6 +167,7 @@ export default function Map() {
                 </small><br/>
                 {area.interdizioni ? <><small>{area.interdizioni}</small><br/></>:null}
                 {area.ordinanza ? <><small>({area.ordinanza})</small><br/></>:null}
+                {area.scheda ? <><a href={`https://www.portaleacque.salute.gov.it/PortaleAcquePubblico/rest/download/sintesi/${area.scheda}`}>LINK</a><br/></>:null}
                 </>
               }
               <button onClick={closeModal}>OK</button>
@@ -191,6 +192,7 @@ export default function Map() {
                     classe: data[key].areaBalneazioneBean.classe,
                     interdizioni: data[key].interdizioni ? data[key].interdizioni[0].evento && "Interdizione per " + data[key].interdizioni[0].evento : null,
                     ordinanza: data[key].interdizioni ? data[key].interdizioni[0].ordinanza && "Ordinanza " + data[key].interdizioni[0].ordinanza : null,
+                    scheda: data[key].dettaglioProfiliBean ? data[key].dettaglioProfiliBean[0].codice : null,
                   }
                 )}
                 path={getCoordinates(data[key].coordinates)}
