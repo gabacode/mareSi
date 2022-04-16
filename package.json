@@ -1,62 +1,58 @@
 {
   "name": "maresi",
-  "version": "0.5.0",
-  "author": "Gabriele Scalici <gaba@totel.it>",
+  "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "@react-google-maps/api": "^2.2.0",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "axios": "^0.21.1",
-    "date-fns": "^2.23.0",
-    "hamburger-react": "^2.4.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-geocode": "^0.2.3",
-    "react-icons": "^4.2.0",
-    "react-markdown": "^6.0.3",
-    "react-modal": "^3.14.3",
-    "react-router-dom": "^5.2.0",
-    "react-router-ga": "^1.2.3",
-    "react-scripts": "4.0.3",
-    "react-select": "^4.3.1",
-    "react-window": "^1.8.6",
-    "workbox-background-sync": "^5.1.3",
-    "workbox-broadcast-update": "^5.1.3",
-    "workbox-cacheable-response": "^5.1.3",
-    "workbox-core": "^5.1.3",
-    "workbox-expiration": "^5.1.3",
-    "workbox-google-analytics": "^5.1.3",
-    "workbox-navigation-preload": "^5.1.3",
-    "workbox-precaching": "^5.1.3",
-    "workbox-range-requests": "^5.1.3",
-    "workbox-routing": "^5.1.3",
-    "workbox-strategies": "^5.1.3",
-    "workbox-streams": "^5.1.3"
-  },
+  "description": "MareSì",
+  "author": "Gabriele Scalici <gaba@totel.it>",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@fontsource/poppins": "^4.5.5",
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "bootstrap": "^5.1.3",
+    "gatsby": "^4.12.1",
+    "gatsby-plugin-anchor-links": "^1.2.1",
+    "gatsby-plugin-google-analytics": "^4.12.1",
+    "gatsby-plugin-image": "^2.12.1",
+    "gatsby-plugin-manifest": "^4.12.1",
+    "gatsby-plugin-mdx": "^3.12.1",
+    "gatsby-plugin-no-sourcemaps": "^4.12.1",
+    "gatsby-plugin-react-helmet": "^5.12.1",
+    "gatsby-plugin-react-svg": "^3.1.0",
+    "gatsby-plugin-sharp": "^4.12.1",
+    "gatsby-plugin-sitemap": "^5.12.1",
+    "gatsby-plugin-theme-ui": "^0.14.2",
+    "gatsby-source-filesystem": "^4.12.1",
+    "gatsby-transformer-sharp": "^4.12.1",
+    "hamburger-react": "^2.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-responsive": "^9.0.0-beta.6",
+    "theme-ui": "^0.14.2"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/react": "^17.0.44",
+    "@types/react-dom": "^17.0.15",
+    "@types/react-helmet": "^6.1.5",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.3"
   }
 }
