@@ -37,7 +37,7 @@ export const AboutDesktop = () => {
               <Flex
                 sx={{
                   justifyContent: 'space-between',
-                  width: '80%',
+                  width: '100%',
                   alignItems: 'center',
                 }}
               >
