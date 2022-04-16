@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { useMediaQuery } from 'react-responsive';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import {
   Box,
@@ -30,10 +29,6 @@ export const Header = () => {
       link: '/#beta',
     },
   ];
-
-  const smallScreen = useMediaQuery({
-    query: '(max-width: 832px)',
-  });
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -77,36 +72,40 @@ export const Header = () => {
             </AnchorLink>
           </Box>
           <Box>
-            {!smallScreen && (
-              <Flex
-                sx={{
-                  justifyContent: 'space-evenly',
-                  alignItems: 'center',
-                }}
-              >
-                <AnchorLink to="/#beta" title="Closed Beta">
-                  <NavLink color="primary" p={2}>
-                    Closed Beta
-                  </NavLink>
-                </AnchorLink>
+            <Flex
+              sx={{
+                justifyContent: 'space-evenly',
+                alignItems: 'center',
+                display: ['none', 'none', 'flex'],
+              }}
+            >
+              <AnchorLink to="/#beta" title="Closed Beta">
+                <NavLink color="primary" p={2}>
+                  Closed Beta
+                </NavLink>
+              </AnchorLink>
 
-                <AnchorLink to="/#team" title="Dev Team">
-                  <NavLink color="primary" p={2}>
-                    Dev Team
-                  </NavLink>
-                </AnchorLink>
-              </Flex>
-            )}
-            {smallScreen && (
-              <Box p={2} sx={{ float: 'right', zIndex: 4 }}>
-                <Hamburger
-                  size={30}
-                  color={isOpen ? 'white' : '#3399CC'}
-                  toggled={isOpen}
-                  toggle={setIsOpen}
-                />
-              </Box>
-            )}
+              <AnchorLink to="/#team" title="Dev Team">
+                <NavLink color="primary" p={2}>
+                  Dev Team
+                </NavLink>
+              </AnchorLink>
+            </Flex>
+            <Box
+              p={2}
+              sx={{
+                float: 'right',
+                zIndex: 4,
+                display: ['flex', 'flex', 'none'],
+              }}
+            >
+              <Hamburger
+                size={30}
+                color={isOpen ? 'white' : '#3399CC'}
+                toggled={isOpen}
+                toggle={setIsOpen}
+              />
+            </Box>
           </Box>
         </Grid>
       </Box>
