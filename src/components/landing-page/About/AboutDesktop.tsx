@@ -22,7 +22,7 @@ export const AboutDesktop = () => {
         <Grid
           gap={2}
           columns={[1, null, 2]}
-          sx={{ alignItems: 'center', marginTop: 20 }}
+          sx={{ alignItems: 'center' }}
         >
           <Box mx="auto" p={4}>
             <Flex
@@ -82,6 +82,9 @@ export const AboutDesktop = () => {
           >
             {pageSwap ? (
               <StaticImage
+                style={{
+                  height: '100vh',
+                }}
                 transformOptions={{
                   fit: 'contain',
                 }}
@@ -90,6 +93,9 @@ export const AboutDesktop = () => {
               />
             ) : (
               <StaticImage
+                style={{
+                  height: '100vh',
+                }}
                 transformOptions={{
                   fit: 'contain',
                 }}
