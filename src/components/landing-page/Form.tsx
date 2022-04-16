@@ -3,12 +3,12 @@ import { Box, Button, Input, Textarea } from 'theme-ui';
 import axios from 'axios';
 interface FormProps {
   subject: string;
-  email: string;
+  from: string;
   text: string;
 }
 const initialFields: FormProps = {
   subject: '',
-  email: '',
+  from: '',
   text: '',
 };
 export const Form = () => {
@@ -67,8 +67,8 @@ export const Form = () => {
         />
         <Input
           type="email"
-          name="email"
-          value={fields.email}
+          name="from"
+          value={fields.from}
           placeholder="E-mail"
           onChange={handleInput}
           required
