@@ -4,7 +4,13 @@ import { Box, Container, Flex, Heading, Text } from 'theme-ui';
 
 export const AboutMobile = () => {
   return (
-    <Flex id="main" sx={{ justifyContent: 'space-between' }}>
+    <Flex
+      id="main"
+      sx={{
+        justifyContent: 'space-between',
+        display: ['flex', 'flex', 'none'],
+      }}
+    >
       <Container
         mx="auto"
         sx={{

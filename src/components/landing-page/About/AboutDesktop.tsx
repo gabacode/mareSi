@@ -10,7 +10,13 @@ export const AboutDesktop = () => {
   const rotate = pageSwap ? 'rotate(180deg)' : 'rotate(0)';
 
   return (
-    <Flex id="main" sx={{ justifyContent: 'space-between' }}>
+    <Flex
+      id="main"
+      sx={{
+        justifyContent: 'space-between',
+        display: ['none', 'none', 'flex'],
+      }}
+    >
       <Container
         mx="auto"
         sx={{
