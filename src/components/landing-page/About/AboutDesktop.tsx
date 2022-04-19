@@ -70,7 +70,7 @@ export const AboutDesktop = () => {
             <Text>
               {pageSwap
                 ? `Siamo semplicemente due ragazzi siciliani esperti in
-              design e develpment che hanno a cuore l’ambiente e
+              design e development che hanno a cuore l’ambiente e
               amano trascorrere giornate a mare con la propria
               famiglia. Il nostro progetto si chiama Koucee, vi
               invitiamo sui nostri social per conoscerci meglio.`
