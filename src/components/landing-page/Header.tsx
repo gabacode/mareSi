@@ -25,7 +25,7 @@ export const Header = () => {
       link: '/#team',
     },
     {
-      name: 'Closed Beta',
+      name: 'Beta',
       link: '/#beta',
     },
   ];
@@ -79,9 +79,9 @@ export const Header = () => {
                 display: ['none', 'none', 'flex'],
               }}
             >
-              <AnchorLink to="/#beta" title="Closed Beta">
+              <AnchorLink to="/#beta" title="Beta">
                 <NavLink color="primary" p={2}>
-                  Closed Beta
+                  Beta
                 </NavLink>
               </AnchorLink>
 
