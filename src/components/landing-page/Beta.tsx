@@ -1,6 +1,14 @@
 import React from 'react';
-import { Box, Container, Flex, Grid, Heading, Text } from 'theme-ui';
-import { Form } from './Form';
+import {
+  Box,
+  Button,
+  Container,
+  Flex,
+  Grid,
+  Heading,
+  Text,
+} from 'theme-ui';
+import { FaGooglePlay } from 'react-icons/fa';
 
 export const Beta = () => {
   return (
@@ -8,32 +16,84 @@ export const Beta = () => {
       <Container
         p={4}
         mx="auto"
-        sx={{ maxWidth: 1920, alignSelf: 'center' }}
+        sx={{ maxWidth: 960, alignSelf: 'center' }}
       >
         <Grid
           gap={4}
-          columns={[1, null, 2]}
+          columns={[1, null, 1]}
           sx={{ alignItems: 'center' }}
         >
           <Box
             mx="auto"
             sx={{
               width: ['100%', '90%', '100%'],
-              textAlign: ['center', 'center', 'left'],
             }}
           >
-            <Heading as="h1" color="secondary">
-              Entra a far parte della closed beta!
+            <Heading
+              sx={{
+                textAlign: ['center', 'center', 'center'],
+                mb: 4,
+              }}
+              as="h1"
+              color="secondary"
+            >
+              MareSì Open Beta
             </Heading>
-            <Text>
-              A breve lanceremo una closed beta fornendo, in
-              anteprima, ai primi mille utenti che si registreranno
-              tramite il nostro contact form la versione beta
-              dell’app. Vogliamo chiedervi un piccolo aiuto per
-              rendere questo prodotto migliore.
+            <Text color="secondary">
+              Dopo mesi di lavoro siamo lieti di annunciare che
+              l&apos;app MareSì è da oggi disonibile sul Google Play
+              Store.
+              <br />
+              <br /> Ci teniamo a ringraziare ancora una volta le
+              persone che hanno reso parte alla fase closed beta; i
+              vostri feedback e le vostre opinioni ci hanno
+              consentito di sviluppare il nostro prodotto migliore di
+              come lo avessimo pensato inizialmente.
+              <br />
+              <br />
+              Il nostro obiettivo era quello di migliorare
+              l&apos;esperienza balneare delle persone, aiutandole a
+              scoprire a vivere al meglio le spiagge del territorio
+              italiano.
             </Text>
+            <Heading
+              as="h4"
+              color="secondary"
+              sx={{ float: 'right', mt: 5 }}
+            >
+              Gabriele & Davide
+            </Heading>
           </Box>
-          <Form />
+          <Box sx={{ textAlign: 'center' }}>
+            <Button
+              sx={{
+                cursor: 'pointer',
+                paddingRight: 40,
+                paddingLeft: 40,
+                paddingTop: 20,
+                paddingBottom: 20,
+                borderRadius: 10,
+              }}
+              variant="secondary"
+              onClick={() => {
+                window.open(
+                  'https://play.google.com/store/apps/details?id=com.koucee.maresi',
+                  '_blank'
+                );
+              }}
+            >
+              <Flex>
+                <Flex sx={{ alignSelf: 'center', marginRight: 1 }}>
+                  <FaGooglePlay />
+                </Flex>
+                <Flex sx={{ alignSelf: 'center' }}>
+                  <Text sx={{ fontWeight: 'bold' }}>
+                    Scarica l&apos;app
+                  </Text>
+                </Flex>
+              </Flex>
+            </Button>
+          </Box>
         </Grid>
       </Container>
     </Flex>

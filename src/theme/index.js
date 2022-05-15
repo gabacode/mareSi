@@ -42,6 +42,24 @@ module.exports = {
       },
     },
   },
+  buttons: {
+    padding: 5,
+    cursor: 'pointer',
+    primary: {
+      color: 'background',
+      bg: 'primary',
+      '&:hover': {
+        bg: 'text',
+      },
+    },
+    secondary: {
+      color: 'primary',
+      bg: 'background',
+      '&:hover': {
+        transform: 'scale(1.1)',
+      },
+    },
+  },
   styles: {
     root: {
       fontFamily: 'body',
