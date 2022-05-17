@@ -41,11 +41,11 @@ export const Beta = () => {
             </Heading>
             <Text color="secondary">
               Dopo mesi di lavoro siamo lieti di annunciare che
-              l&apos;app MareSì è da oggi disonibile sul Google Play
+              l&apos;app MareSì è da oggi disponibile sul Google Play
               Store.
               <br />
               <br /> Ci teniamo a ringraziare ancora una volta le
-              persone che hanno reso parte alla fase closed beta; i
+              persone che hanno preso parte alla fase closed beta; i
               vostri feedback e le vostre opinioni ci hanno
               consentito di sviluppare il nostro prodotto migliore di
               come lo avessimo pensato inizialmente.
@@ -53,7 +53,7 @@ export const Beta = () => {
               <br />
               Il nostro obiettivo era quello di migliorare
               l&apos;esperienza balneare delle persone, aiutandole a
-              scoprire a vivere al meglio le spiagge del territorio
+              scoprire come vivere al meglio le spiagge del territorio
               italiano.
             </Text>
             <Heading
