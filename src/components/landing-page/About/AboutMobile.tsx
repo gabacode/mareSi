@@ -1,6 +1,6 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import { Box, Container, Flex, Heading, Text } from 'theme-ui';
+import { Box, Container, Flex, Heading, Link, Text } from 'theme-ui';
 
 export const AboutMobile = () => {
   return (
@@ -56,9 +56,26 @@ export const AboutMobile = () => {
             <Text>
               MareSì nasce dalla voglia di fornire ai bagnanti
               informazioni sulla qualità delle acque all’interno del
-              territorio italiano. La nostra app vuole aiutare
-              persone, famiglie e professionisti a scegliere le
-              migliori zone balneabili vicino a loro.
+              territorio italiano utilizzando I dati messi a
+              disposizione dal{' '}
+              <Link
+                sx={{ color: 'text' }}
+                href="https://www.portaleacque.salute.gov.it/PortaleAcquePubblico/home.do"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ministero della Salute
+              </Link>{' '}
+              su licenza{' '}
+              <Link
+                sx={{ color: 'text' }}
+                href="http://creativecommons.org/licenses/by/3.0/it/legalcode"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                CC-BY 3.0
+              </Link>
+              .
             </Text>
           </Box>
         </Box>

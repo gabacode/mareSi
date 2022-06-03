@@ -1,6 +1,14 @@
 import React, { useState } from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import { Box, Container, Flex, Grid, Heading, Text } from 'theme-ui';
+import {
+  Box,
+  Container,
+  Flex,
+  Grid,
+  Heading,
+  Link,
+  Text,
+} from 'theme-ui';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import Logo from '../../../images/logo.svg';
 
@@ -67,19 +75,40 @@ export const AboutDesktop = () => {
                 </Box>
               </Flex>
             </Flex>
-            <Text>
-              {pageSwap
-                ? `Siamo semplicemente due ragazzi siciliani esperti in
-              design e development che hanno a cuore l’ambiente e
-              amano trascorrere giornate a mare con la propria
-              famiglia. Il nostro progetto si chiama Koucee, vi
-              invitiamo sui nostri social per conoscerci meglio.`
-                : `MareSì nasce dalla voglia di fornire ai bagnanti
-              informazioni sulla qualità delle acque all’interno del
-              territorio italiano. La nostra app vuole aiutare
-              persone, famiglie e professionisti a scegliere le
-              migliori zone balneabili vicino a loro.`}
-            </Text>
+            {pageSwap ? (
+              <Text>
+                Siamo semplicemente due ragazzi siciliani esperti in
+                design e development che hanno a cuore l’ambiente e
+                amano trascorrere giornate a mare con la propria
+                famiglia. Il nostro progetto si chiama Koucee, vi
+                invitiamo sui nostri social per conoscerci meglio.
+              </Text>
+            ) : (
+              <Text>
+                MareSì nasce dalla voglia di fornire ai bagnanti
+                informazioni sulla qualità delle acque all’interno
+                del territorio italiano utilizzando I dati messi a
+                disposizione dal{' '}
+                <Link
+                  sx={{ color: 'text' }}
+                  href="https://www.portaleacque.salute.gov.it/PortaleAcquePubblico/home.do"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ministero della Salute
+                </Link>{' '}
+                su licenza{' '}
+                <Link
+                  sx={{ color: 'text' }}
+                  href="http://creativecommons.org/licenses/by/3.0/it/legalcode"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CC-BY 3.0
+                </Link>
+                .
+              </Text>
+            )}
           </Box>
           <Box
             sx={{
