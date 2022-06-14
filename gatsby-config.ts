@@ -4,7 +4,7 @@ require('dotenv').config({
 });
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `MareSì`,
+    title: `MareSì App - Acque di Balneazione`,
     siteUrl: `https://maresi.app`,
   },
   plugins: [
