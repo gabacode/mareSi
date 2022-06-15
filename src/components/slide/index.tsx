@@ -11,6 +11,7 @@ export const Slide: FC<SlideProps> = ({ slides }) => {
     <Grid columns={[1, null, 3]}>
       {slides.map(slide => (
         <Box
+          style={{ alignSelf: 'center' }}
           mx="auto"
           sx={{ marginTop: [3, 0, 0] }}
           key={slide.title}
@@ -21,6 +22,7 @@ export const Slide: FC<SlideProps> = ({ slides }) => {
             rel="noopener noreferrer"
           >
             <Image
+              style={{ height: slide.height }}
               variant="press"
               src={slide.image}
               alt={slide.title}

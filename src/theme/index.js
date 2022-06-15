@@ -62,7 +62,6 @@ module.exports = {
   },
   images: {
     press: {
-      height: '36px',
       filter: 'grayscale(1) brightness(1)',
       opacity: '.309',
       '&:hover': {
