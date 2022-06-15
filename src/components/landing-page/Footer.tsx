@@ -8,7 +8,16 @@ export const Footer = () => {
     <Box bg="primary" color="secondary" sx={{ textAlign: 'center' }}>
       <Container p={4}>
         <Heading as="h2">
-          MareSì è sviluppata dal team Koucee!
+          MareSì è sviluppata dal{' '}
+          <Link
+            sx={{ color: 'secondary', textDecoration: 'none' }}
+            href="https://koucee.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            team Koucee
+          </Link>
+          !
         </Heading>
         <Heading as="h3">
           Siamo due amici che sviluppano prodotti per le persone.

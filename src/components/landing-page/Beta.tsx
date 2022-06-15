@@ -37,7 +37,7 @@ export const Beta = () => {
               as="h1"
               color="secondary"
             >
-              MareSì Open Beta
+              MareSì Open
             </Heading>
             <Text color="secondary">
               Dopo mesi di lavoro siamo lieti di annunciare che
@@ -53,8 +53,8 @@ export const Beta = () => {
               <br />
               Il nostro obiettivo era quello di migliorare
               l&apos;esperienza balneare delle persone, aiutandole a
-              scoprire come vivere al meglio le spiagge del territorio
-              italiano.
+              scoprire come vivere al meglio le spiagge del
+              territorio italiano.
             </Text>
             <Heading
               as="h4"
