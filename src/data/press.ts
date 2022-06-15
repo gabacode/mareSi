@@ -9,7 +9,7 @@ export const press: ISlide[] = [
   {
     title: 'Palermo Today',
     image: './images/press/palermo-today.svg',
-    height: '36px',
+    height: '30px',
     url: 'https://www.palermotoday.it/social/app-mare-si-palermitani-divieti-balneazione.html',
   },
   {
@@ -21,7 +21,7 @@ export const press: ISlide[] = [
   {
     title: 'ilMediterraneo24',
     image: './images/press/ilMediterraneo24.png',
-    height: '36px',
+    height: '40px',
     url: 'https://www.ilmediterraneo24.it/in-sicilia/sicilia/dove-meglio-fare-il-bagno-te-lo-dice-unapp/',
   },
 ];
