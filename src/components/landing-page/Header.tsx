@@ -79,13 +79,13 @@ export const Header = () => {
                 display: ['none', 'none', 'flex'],
               }}
             >
-              <AnchorLink to="/#beta" title="Scarica">
+              <AnchorLink to="/#beta">
                 <NavLink color="primary" p={2}>
                   Scarica
                 </NavLink>
               </AnchorLink>
 
-              <AnchorLink to="/#team" title="Dev Team">
+              <AnchorLink to="/#team">
                 <NavLink color="primary" p={2}>
                   Dev Team
                 </NavLink>
