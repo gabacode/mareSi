@@ -8,7 +8,7 @@ interface SlideProps {
 
 export const Slide: FC<SlideProps> = ({ slides }) => {
   return (
-    <Grid columns={[1, null, 3]}>
+    <Grid columns={[1, null, slides.length]}>
       {slides.map(slide => (
         <Box
           style={{ alignSelf: 'center' }}
