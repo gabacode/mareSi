@@ -5,23 +5,18 @@ require('dotenv').config({
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `MareSì App - Acque di Balneazione`,
+    description: `Scopri la qualità delle acque che ti circondano.`,
     siteUrl: `https://maresi.app`,
+    image: `https://maresi.app/images/banners/logo.png`,
   },
   plugins: [
     'gatsby-plugin-image',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
-    'gatsby-plugin-mdx',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-no-sourcemaps',
     'gatsby-plugin-anchor-links',
-    // {
-    //   resolve: 'gatsby-plugin-google-analytics',
-    //   options: {
-    //     trackingId: '',
-    //   },
-    // },
     {
       resolve: 'gatsby-plugin-theme-ui',
       options: {
