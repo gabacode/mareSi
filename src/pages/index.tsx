@@ -10,7 +10,6 @@ import { SEO } from '../components/seo';
 const IndexPage = () => {
   return (
     <React.Fragment>
-      <SEO />
       <Header />
       <About />
       <Beta />
@@ -22,3 +21,7 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
+
+export function Head() {
+  return <SEO />;
+}

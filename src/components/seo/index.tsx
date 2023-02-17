@@ -1,15 +1,11 @@
 import React from 'react';
 import { useSiteMetadata } from '../../hooks/use-site-metadata';
 
-interface SEOProps {
-  children?: React.ReactNode;
-}
-
-export const SEO = ({ children }: SEOProps) => {
+export const SEO = () => {
   const { title, description, siteUrl, image } = useSiteMetadata();
-
   return (
     <>
+      <html lang="it" />
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
@@ -22,7 +18,6 @@ export const SEO = ({ children }: SEOProps) => {
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
       <link rel="canonical" href={siteUrl} />
-      {children}
     </>
   );
 };
