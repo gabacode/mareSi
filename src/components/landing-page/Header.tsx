@@ -28,6 +28,10 @@ export const Header = () => {
       name: 'Scarica',
       link: '/#beta',
     },
+    {
+      name: 'Privacy',
+      link: '/privacy',
+    },
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -88,6 +92,12 @@ export const Header = () => {
               <AnchorLink to="/#team">
                 <NavLink color="primary" p={2}>
                   Dev Team
+                </NavLink>
+              </AnchorLink>
+
+              <AnchorLink to="/privacy">
+                <NavLink color="primary" p={2}>
+                  Privacy
                 </NavLink>
               </AnchorLink>
             </Flex>

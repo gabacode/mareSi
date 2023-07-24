@@ -95,7 +95,7 @@ export const AboutDesktop = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  ministero della Salute
+                  Ministero della Salute
                 </Link>{' '}
                 su licenza{' '}
                 <Link
