@@ -37,9 +37,10 @@ const PrivacyPage = () => {
 
       <Section title="In breve">
         <Paragraph>
-          MareSì rispetta la tua privacy. Non raccogliamo, non memorizziamo e
-          non condividiamo i tuoi dati personali. L&apos;unico dato che
-          utilizziamo è la tua posizione GPS, e solo quando ci dai il permesso.
+          MareSì rispetta la tua privacy. Non abbiamo server che raccolgono i
+          tuoi dati. L&apos;unico dato che utilizziamo è la tua posizione GPS, e
+          solo quando ci dai il permesso, per mostrarti le spiagge vicine e
+          permetterti di raggiungerle tramite Google Maps.
         </Paragraph>
       </Section>
 
