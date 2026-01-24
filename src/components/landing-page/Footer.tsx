@@ -29,10 +29,7 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram
-              style={{ marginRight: '3px' }}
-              size={iconSize}
-            />
+            <FaInstagram style={{ marginRight: '3px' }} size={iconSize} />
           </Link>
           <Link
             sx={{ color: 'secondary' }}
@@ -40,10 +37,7 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaFacebookSquare
-              style={{ marginLeft: '3px' }}
-              size={iconSize}
-            />
+            <FaFacebookSquare style={{ marginLeft: '3px' }} size={iconSize} />
           </Link>
         </Box>
       </Container>

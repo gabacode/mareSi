@@ -1,42 +1,21 @@
 module.exports = {
-  env: {
-    browser: true,
-    node: true,
-    es2021: true,
-  },
+  parser: '@typescript-eslint/parser',
   extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'prettier',
-    'plugin:react-hooks/recommended',
+    'react-app',
     'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
   ],
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-  },
-  plugins: ['react', 'prettier', '@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'react-hooks'],
   rules: {
-    '@typescript-eslint/no-var-requires': 0,
-    '@typescript-eslint/ban-ts-comment': 0,
-    'react/prop-types': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'prettier/prettier': [
-      'error',
-      {
-        arrowParens: 'avoid',
-        bracketSpacing: true,
-        printWidth: 69,
-        semi: true,
-        singleQuote: true,
-        tabWidth: 2,
-        trailingComma: 'es5',
-        useTabs: false,
-      },
-    ],
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/no-explicit-any': 'warn',
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
   },
 };

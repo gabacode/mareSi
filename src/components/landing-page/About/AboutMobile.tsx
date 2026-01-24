@@ -54,10 +54,9 @@ export const AboutMobile = () => {
               </Heading>
             </Flex>
             <Text>
-              MareSì nasce dalla voglia di fornire ai bagnanti
-              informazioni sulla qualità delle acque all’interno del
-              territorio italiano utilizzando I dati messi a
-              disposizione dal{' '}
+              MareSì nasce dalla voglia di fornire ai bagnanti informazioni
+              sulla qualità delle acque all’interno del territorio italiano
+              utilizzando I dati messi a disposizione dal{' '}
               <Link
                 sx={{ color: 'text' }}
                 href="https://www.portaleacque.salute.gov.it/PortaleAcquePubblico/home.do"
@@ -113,11 +112,11 @@ export const AboutMobile = () => {
               </Heading>
             </Flex>
             <Text>
-              Siamo semplicemente due ragazzi siciliani esperti in
-              design e development che hanno a cuore l’ambiente e
-              amano trascorrere giornate a mare con la propria
-              famiglia. Il nostro progetto si chiama Koucee, vi
-              invitiamo sui nostri social per conoscerci meglio.
+              Siamo semplicemente due ragazzi siciliani esperti in design e
+              development che hanno a cuore l’ambiente e amano trascorrere
+              giornate a mare con la propria famiglia. Il nostro progetto si
+              chiama Koucee, vi invitiamo sui nostri social per conoscerci
+              meglio.
             </Text>
           </Box>
         </Box>

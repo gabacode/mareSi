@@ -23,9 +23,7 @@ export const Form = () => {
       [name]: value,
     });
   };
-  const handleSubmit = async (
-    e: React.FormEvent<HTMLFormElement>
-  ) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSending(true);
     try {
@@ -33,7 +31,7 @@ export const Form = () => {
         .post(process.env.GATSBY_MAIL_ENDPOINT ?? '', {
           ...fields,
         })
-        .then(res => {
+        .then((res) => {
           if (res.status === 200) {
             setFields(initialFields);
             window.alert('Messaggio Inviato!');

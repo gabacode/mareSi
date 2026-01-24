@@ -1,14 +1,6 @@
 import React, { useState } from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import {
-  Box,
-  Container,
-  Flex,
-  Grid,
-  Heading,
-  Link,
-  Text,
-} from 'theme-ui';
+import { Box, Container, Flex, Grid, Heading, Link, Text } from 'theme-ui';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import Logo from '../../../images/logo.svg';
 
@@ -33,11 +25,7 @@ export const AboutDesktop = () => {
           alignSelf: 'center',
         }}
       >
-        <Grid
-          gap={2}
-          columns={[1, null, 2]}
-          sx={{ alignItems: 'center' }}
-        >
+        <Grid gap={2} columns={[1, null, 2]} sx={{ alignItems: 'center' }}>
           <Box mx="auto" p={4}>
             <Flex
               sx={{
@@ -55,10 +43,7 @@ export const AboutDesktop = () => {
                   alignItems: 'center',
                 }}
               >
-                <Heading
-                  as="h1"
-                  sx={{ color: 'primary', marginLeft: 3 }}
-                >
+                <Heading as="h1" sx={{ color: 'primary', marginLeft: 3 }}>
                   {pageSwap ? 'Chi Siamo' : 'Il progetto'}
                 </Heading>
                 <Box sx={{ display: 'flex' }}>
@@ -77,18 +62,17 @@ export const AboutDesktop = () => {
             </Flex>
             {pageSwap ? (
               <Text>
-                Siamo semplicemente due ragazzi siciliani esperti in
-                design e development che hanno a cuore l’ambiente e
-                amano trascorrere giornate a mare con la propria
-                famiglia. Il nostro progetto si chiama Koucee, vi
-                invitiamo sui nostri social per conoscerci meglio.
+                Siamo semplicemente due ragazzi siciliani esperti in design e
+                development che hanno a cuore l’ambiente e amano trascorrere
+                giornate a mare con la propria famiglia. Il nostro progetto si
+                chiama Koucee, vi invitiamo sui nostri social per conoscerci
+                meglio.
               </Text>
             ) : (
               <Text>
-                MareSì nasce dalla voglia di fornire ai bagnanti
-                informazioni sulla qualità delle acque all’interno
-                del territorio italiano utilizzando I dati messi a
-                disposizione dal{' '}
+                MareSì nasce dalla voglia di fornire ai bagnanti informazioni
+                sulla qualità delle acque all’interno del territorio italiano
+                utilizzando I dati messi a disposizione dal{' '}
                 <Link
                   sx={{ color: 'text' }}
                   href="https://www.portaleacque.salute.gov.it/PortaleAcquePubblico/home.do"

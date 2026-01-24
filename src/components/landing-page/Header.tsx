@@ -38,8 +38,7 @@ export const Header = () => {
 
   useEffect(() => {
     if (isOpen) {
-      document.getElementsByTagName('html')[0].style.overflow =
-        'hidden';
+      document.getElementsByTagName('html')[0].style.overflow = 'hidden';
     } else {
       document.getElementsByTagName('html')[0].style.overflow = '';
     }
@@ -56,11 +55,7 @@ export const Header = () => {
           zIndex: 3,
         }}
       >
-        <Grid
-          gap={2}
-          columns={[2, '2fr 1fr']}
-          sx={{ alignItems: 'center' }}
-        >
+        <Grid gap={2} columns={[2, '2fr 1fr']} sx={{ alignItems: 'center' }}>
           <Box>
             <AnchorLink to="/#main" title="Home">
               <Link href="/" p={3}>
@@ -159,10 +154,7 @@ export const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaInstagram
-                  style={{ marginRight: '3px' }}
-                  size={30}
-                />
+                <FaInstagram style={{ marginRight: '3px' }} size={30} />
               </Link>
               <Link
                 sx={{ color: 'secondary' }}
@@ -170,10 +162,7 @@ export const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaFacebookSquare
-                  style={{ marginLeft: '3px' }}
-                  size={30}
-                />
+                <FaFacebookSquare style={{ marginLeft: '3px' }} size={30} />
               </Link>
             </Box>
           </Container>
