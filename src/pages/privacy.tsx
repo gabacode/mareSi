@@ -45,19 +45,35 @@ const PrivacyPage = () => {
 
       <Section title="Dati raccolti">
         <Paragraph>
-          <strong>Posizione GPS</strong> — Utilizziamo la tua posizione
-          esclusivamente per calcolare la distanza dalle spiagge. Questo dato:
+          <strong>Posizione GPS</strong> — Utilizziamo la tua posizione per
+          mostrarti le spiagge nelle vicinanze. Questo dato:
         </Paragraph>
         <ul>
-          <li>Viene usato solo sul tuo dispositivo</li>
           <li>Non viene mai inviato ai nostri server</li>
           <li>Non viene memorizzato</li>
-          <li>Non viene condiviso con terze parti</li>
         </ul>
         <Paragraph>
           Se neghi il permesso alla geolocalizzazione, l&apos;app funziona
           comunque: potrai vedere le spiagge della tua regione, ma non la
           distanza esatta da esse.
+        </Paragraph>
+      </Section>
+
+      <Section title="Servizi di terze parti">
+        <Paragraph>
+          <strong>Google Maps</strong> — L&apos;app utilizza Google Maps per
+          visualizzare la mappa e la tua posizione. Quando utilizzi la funzione
+          &quot;Vai su Maps&quot; per ottenere indicazioni stradali, la tua
+          posizione viene condivisa con Google. Per maggiori informazioni,
+          consulta la{' '}
+          <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Privacy Policy di Google
+          </a>
+          .
         </Paragraph>
       </Section>
 
