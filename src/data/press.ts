@@ -16,7 +16,7 @@ export const press: ISlide[] = [
     title: 'TGR Sicilia',
     image: './images/press/tgr-sicilia.svg',
     height: '50px',
-    url: 'https://www.rainews.it/tgr/sicilia/video/2022/06/sic-maresi-app-sapere-puoi-fare-bagno-e79b1552-5f6a-49b4-9842-6d273eb4227f.html',
+    url: 'https://www.rainews.it/tgr/sicilia/video/2022/05/sic-maresi-app-sapere-puoi-fare-bagno-e79b1552-5f6a-49b4-9842-6d273eb4227f.html',
   },
   {
     title: 'ilMediterraneo24',
